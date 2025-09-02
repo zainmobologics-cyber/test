@@ -91,17 +91,18 @@ fun AudioPlayerScreen(audioUri: String) {
                         if (player.isPlaying) {
                             player.pause()
                             isPlaying=false
-                            Intent(context, AudioService::class.java).also {
-                                it.action= AudioService.Actions.STOP.toString()
-                                context.startService(it)
-                            }
+//                            Intent(context, AudioService::class.java).also {
+//                                it.action= AudioService.Actions.STOP.toString()
+//                                context.startService(it)
+//                            }
                         } else {
-                            Intent(context, AudioService::class.java).also {
-                                it.action= AudioService.Actions.START.toString()
-                                context.startService(it)
-                            }
-                            player.play()
                             isPlaying=true
+//                            Intent(context, AudioService::class.java).also {
+//                                it.action= AudioService.Actions.START.toString()
+//                                it.putExtra("AUDIO_URI", audioUri)
+//                                context.startService(it)
+//                            }
+                            player.play()
                         }
                     }
                 ) {

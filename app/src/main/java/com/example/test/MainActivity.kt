@@ -4,6 +4,8 @@ import android.app.NotificationChannel
 import android.app.NotificationManager
 import android.content.Context
 import android.content.Intent
+import android.content.IntentFilter
+import android.media.MediaPlayer
 import android.os.Build
 import android.os.Bundle
 import android.widget.Button
@@ -21,6 +23,7 @@ import androidx.navigation.compose.rememberNavController
 import androidx.navigation.toRoute
 import androidx.room.Room
 import com.example.test.network.AudioService
+import com.example.test.network.OnBootBroadCastReceiver
 import com.example.test.network.Product
 import com.example.test.network.room.dao.FavoriteDatabase
 import com.example.test.network.room.dao.ProductDao
@@ -49,10 +52,9 @@ class MainActivity : ComponentActivity() {
 
     @OptIn(ExperimentalSharedTransitionApi::class)
     override fun onCreate(savedInstanceState: Bundle?) {
-
-
         viewModel=ViewModelProvider(this,TestViewModelFactory(Repo(this,db.productDao())))[TestViewModel::class.java]
         super.onCreate(savedInstanceState)
+
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
             ActivityCompat.requestPermissions(
                 this,
@@ -66,6 +68,7 @@ class MainActivity : ComponentActivity() {
 
             TestTheme {
                 val navController = rememberNavController()
+
                 SharedTransitionLayout {
                     NavHost(
                         navController = navController,
@@ -102,10 +105,7 @@ class MainActivity : ComponentActivity() {
                         }
 
                         composable<Routes.AudioPlayerScreen> {
-//                           val intent= Intent(applicationContext, AudioService::class.java).also {
-//                                it.action= AudioService.Actions.START.toString()
-//                                startService(it)
-//                            }
+
                             val args = it.toRoute<Routes.AudioPlayerScreen>()
                             AudioPlayerScreen(audioUri = args.audioUri  )
                         }
@@ -114,6 +114,8 @@ class MainActivity : ComponentActivity() {
             }
         }
     }
+
+
 
     @Suppress("UNCHECKED_CAST")
     class TestViewModelFactory(private val repo: Repo): ViewModelProvider.Factory{

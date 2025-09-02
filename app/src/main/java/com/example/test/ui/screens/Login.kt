@@ -121,7 +121,8 @@ fun LoginScreen(
                 Text("Sign Up", color = Color.DarkGray,
                     fontWeight = FontWeight.Bold,
                     modifier = Modifier.clickable(
-                        onClick = { navController.navigate(Routes.SignUpScreen) }
+                        onClick = { navController.navigate(Routes.SignUpScreen)
+                        viewModel.resetState()}
                     ))
             }
         }
