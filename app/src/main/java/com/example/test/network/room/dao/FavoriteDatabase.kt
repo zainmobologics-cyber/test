@@ -13,3 +13,4 @@ abstract class FavoriteDatabase: RoomDatabase() {
     abstract fun productDao(): ProductDao
 
 }
+

@@ -27,7 +27,6 @@ class AudioService: Service() {
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
         when(intent?.action){
             Actions.START.toString() -> {
-                Log.d("AudioService", "AudioService started")
                 start(mediaPlayer)
             }
             Actions.STOP.toString()-> {

@@ -73,20 +73,21 @@ class Repo(
 
     fun getAudioFiles():List<AudioFile> {
         try {
-            val projection = arrayOf(
+            val projection=arrayOf(
                 MediaStore.Audio.Media._ID,
                 MediaStore.Audio.Media.TITLE,
                 MediaStore.Audio.Media.DURATION,
-                MediaStore.Audio.Media.DATA,
+                MediaStore.Audio.Media.DATA
             )
             val selection = MediaStore.Audio.Media.IS_MUSIC + "!=0"
-            val sortOrder = MediaStore.Audio.Media.TITLE + " ASC"
+            val sortOrder = MediaStore.Audio.Media.DISPLAY_NAME + " ASC"
             val cursor = context.contentResolver.query(
                 MediaStore.Audio.Media.EXTERNAL_CONTENT_URI,
                 projection,
                 selection,
                 null,
                 sortOrder
+
             )
             val audioFiles = mutableListOf<AudioFile>()
             cursor.use {
@@ -108,7 +109,6 @@ class Repo(
 
                 }
             }
-            Log.d("AudioFiles Repo", audioFiles.toString())
             return audioFiles
         } catch (e: Exception) {
             throw Exception(e.message)

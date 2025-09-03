@@ -1,20 +1,15 @@
 package com.example.test
 
-import android.app.NotificationChannel
-import android.app.NotificationManager
-import android.content.Context
 import android.content.Intent
-import android.content.IntentFilter
-import android.media.MediaPlayer
+import android.net.Uri
 import android.os.Build
 import android.os.Bundle
-import android.widget.Button
+import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.animation.ExperimentalSharedTransitionApi
 import androidx.compose.animation.SharedTransitionLayout
-import androidx.compose.foundation.layout.Column
 import androidx.core.app.ActivityCompat
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.compose.NavHost
@@ -22,11 +17,8 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.toRoute
 import androidx.room.Room
-import com.example.test.network.AudioService
-import com.example.test.network.OnBootBroadCastReceiver
-import com.example.test.network.Product
+import com.example.test.Routes.*
 import com.example.test.network.room.dao.FavoriteDatabase
-import com.example.test.network.room.dao.ProductDao
 import com.example.test.ui.screens.AudioPlayerScreen
 import com.example.test.ui.screens.DashboardScreen
 import com.example.test.ui.screens.EcommerceDashboardScreen
@@ -37,7 +29,6 @@ import com.example.test.ui.screens.ProductDetailScreen
 import com.example.test.ui.screens.SignUpScreen
 import com.example.test.ui.screens.UserDetailScreen
 import com.example.test.ui.theme.TestTheme
-import kotlin.getValue
 
 class MainActivity : ComponentActivity() {
 
@@ -52,6 +43,21 @@ class MainActivity : ComponentActivity() {
 
     @OptIn(ExperimentalSharedTransitionApi::class)
     override fun onCreate(savedInstanceState: Bundle?) {
+        val audioData = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            intent.getParcelableExtra(Intent.EXTRA_STREAM, Uri::class.java)
+        } else {
+            intent.getParcelableExtra(Intent.EXTRA_STREAM)
+        }
+
+        val startDestination = if (intent?.action == Intent.ACTION_SEND) {
+            if (audioData!=null) {
+                Routes.AudioPlayerScreen(audioData.toString())
+            } else {
+                Routes.LoginScreen
+            }
+        } else {
+            Routes.LoginScreen
+        }
         viewModel=ViewModelProvider(this,TestViewModelFactory(Repo(this,db.productDao())))[TestViewModel::class.java]
         super.onCreate(savedInstanceState)
 
@@ -64,49 +70,48 @@ class MainActivity : ComponentActivity() {
         }
         enableEdgeToEdge()
         setContent {
-
-
             TestTheme {
                 val navController = rememberNavController()
 
                 SharedTransitionLayout {
                     NavHost(
                         navController = navController,
-                        startDestination = Routes.LoginScreen
-                    ) {
-                        composable<Routes.LoginScreen>{
+                        startDestination = startDestination
+                    )
+                     {
+                        composable<LoginScreen>{
                             LoginScreen(viewModel, navController)
                         }
-                        composable<Routes.EcommerceDashboardScreen>{
+                        composable<EcommerceDashboardScreen>{
                             EcommerceDashboardScreen(viewModel,navController, animatedVisibilityScope =this )
                         }
-                        composable <Routes.ProductDetailScreen>{
-                            val args=it.toRoute<Routes.ProductDetailScreen>()
+                        composable <ProductDetailScreen>{
+                            val args=it.toRoute<ProductDetailScreen>()
                             ProductDetailScreen(title = args.title,price = args.price,description = args.description,
                                 image = args.image,navController, animatedVisibilityScope = this)
                         }
 
-                        composable<Routes.SignUpScreen>{
+                        composable<SignUpScreen>{
                             SignUpScreen(navController,viewModel)
                         }
-                        composable<Routes.ScreenA>{
+                        composable<ScreenA>{
                             DashboardScreen(navController,viewModel)
                         }
-                        composable <Routes.ScreenB>{
-                            val args=it.toRoute<Routes.ScreenB>()
+                        composable <ScreenB>{
+                            val args=it.toRoute<ScreenB>()
                             UserDetailScreen(x = args.v,navController)
                         }
-                        composable <Routes.FavoriteScreen>{
+                        composable <FavoriteScreen>{
                             FavoriteScreen(navController,viewModel)
                         }
-                        composable <Routes.LocalStorageTestScreen>
+                        composable <LocalStorageTestScreen>
                         {
                             LocalStorageTestScreen(context = applicationContext, viewModel,navController)
                         }
 
-                        composable<Routes.AudioPlayerScreen> {
+                        composable<AudioPlayerScreen> {
 
-                            val args = it.toRoute<Routes.AudioPlayerScreen>()
+                            val args = it.toRoute<AudioPlayerScreen>()
                             AudioPlayerScreen(audioUri = args.audioUri  )
                         }
                     }
@@ -114,6 +119,15 @@ class MainActivity : ComponentActivity() {
             }
         }
     }
+
+//    override fun onNewIntent(intent: Intent) {
+//        super.onNewIntent(intent)
+//        Log.d("Intent Check","New Intent launched" )
+//
+//        setIntent(intent )
+//
+//    }
+
 
 
 

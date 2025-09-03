@@ -40,6 +40,11 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="audio/*" />
+            </intent-filter>
         </activity>
         <receiver android:name=".network.OnBootBroadCastReceiver"
             android:enabled="true"
@@ -56,5 +61,11 @@
             android:enabled="true"
             android:foregroundServiceType="mediaPlayback" />
     </application>
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.SEND" />
+            <data android:mimeType="audio/*" />
+        </intent>
+    </queries>
 
 </manifest>
