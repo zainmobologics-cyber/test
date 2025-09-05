@@ -125,6 +125,7 @@ class Repo(
 fun mapCodeToError(errorCode: Int): String{
     return when(errorCode){
         404-> "Connection Forbidden"
+        500-> "Internal Server Error"
         else -> "Something went wrong"
     }
 }

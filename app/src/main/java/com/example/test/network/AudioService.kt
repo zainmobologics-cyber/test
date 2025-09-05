@@ -7,13 +7,19 @@ import android.media.MediaPlayer
 import android.os.IBinder
 import android.util.Log
 import androidx.annotation.OptIn
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Stop
+import androidx.compose.material3.Icon
 import androidx.core.app.NotificationCompat
 import androidx.core.content.ContextCompat
+import androidx.media3.common.MediaItem
 import androidx.media3.common.util.UnstableApi
+import androidx.media3.exoplayer.ExoPlayer
 import com.example.test.R
 
 class AudioService: Service() {
-    private var mediaPlayer: MediaPlayer? = null
+//    private var mediaPlayer: MediaPlayer? = null
+    private var player:ExoPlayer?=null
 
     override fun onBind(p0: Intent?): IBinder? {
         return null
@@ -27,7 +33,7 @@ class AudioService: Service() {
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
         when(intent?.action){
             Actions.START.toString() -> {
-                start(mediaPlayer)
+                start(intent)
             }
             Actions.STOP.toString()-> {
                 stopSelf()
@@ -42,19 +48,22 @@ class AudioService: Service() {
 
     }
 
-    private fun start(mediaItem: MediaPlayer?){
-        mediaPlayer = MediaPlayer.create(this, R.raw.bg_music)
-        mediaPlayer?.start()
+    private fun start(intent: Intent){
+//        mediaPlayer = MediaPlayer.create(this, R.raw.bg_music)
+//        mediaPlayer?.start()
 
-//        if (player == null) {
-//            player = ExoPlayer.Builder(this).build()
-//        }
-//        uri?.let {
-//            val mediaItem = MediaItem.fromUri(it)
-//            player?.setMediaItem(mediaItem)
-//            player?.prepare()
-//            player?.play()
-//        }
+        val uri=intent.getStringExtra("AUDIO_URI")
+        Log.d("Audio URI", "$uri")
+        if (player == null) {
+            player = ExoPlayer.Builder(this).build()
+        }
+
+        uri?.let {
+            val mediaItem = MediaItem.fromUri(it)
+            player?.setMediaItem(mediaItem)
+            player?.prepare()
+            player?.play()
+        }
         val stopIntent = Intent(this, AudioService::class.java)
         stopIntent.action= Actions.STOP.toString()
         val pendingStopIntent = PendingIntent.getService(this, 0, stopIntent,
@@ -64,7 +73,7 @@ class AudioService: Service() {
             .setSmallIcon(R.drawable.music_note_symbol)
             .setContentTitle("Audio Service")
             .setContentText("Audio Service is running")
-            .addAction(R.drawable.stop, "Stop",pendingStopIntent  )
+            .addAction(R.drawable.outline_stop_24, "Stop",pendingStopIntent  )
              .setColor(ContextCompat.getColor(this, R.color.purple_200))
             .build()
 
@@ -73,8 +82,8 @@ class AudioService: Service() {
     }
 
     override fun onDestroy() {
-        mediaPlayer?.stop()
-        mediaPlayer?.release()
+        player?.stop()
+        player?.release()
         super.onDestroy()
 
     }

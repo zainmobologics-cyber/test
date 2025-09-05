@@ -17,6 +17,7 @@ converterGson = "2.7.2"
 composeAnimation = "1.9.0"
 ksp = "2.0.21-1.0.25"
 media3Session = "1.8.0"
+workRuntimeKtx = "2.10.3"
 
 
 [libraries]
@@ -42,6 +43,7 @@ retrofit2-retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref =
 converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "converterGson" }
 androidx-compose-animation = { group = "androidx.compose.animation", name = "animation", version.ref = "composeAnimation" }
 androidx-media3-session = { group = "androidx.media3", name = "media3-session", version.ref = "media3Session" }
+androidx-work-runtime-ktx = { group = "androidx.work", name = "work-runtime-ktx", version.ref = "workRuntimeKtx" }
 
 
 

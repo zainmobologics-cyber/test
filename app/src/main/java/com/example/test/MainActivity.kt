@@ -1,23 +1,29 @@
 package com.example.test
 
+import android.content.Context
 import android.content.Intent
 import android.net.Uri
 import android.os.Build
 import android.os.Bundle
-import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.animation.ExperimentalSharedTransitionApi
 import androidx.compose.animation.SharedTransitionLayout
 import androidx.core.app.ActivityCompat
+import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.toRoute
 import androidx.room.Room
+import androidx.work.Constraints
+import androidx.work.NetworkType
+import androidx.work.PeriodicWorkRequestBuilder
+import androidx.work.WorkManager
 import com.example.test.Routes.*
+import com.example.test.network.TestWorkManager
 import com.example.test.network.room.dao.FavoriteDatabase
 import com.example.test.ui.screens.AudioPlayerScreen
 import com.example.test.ui.screens.DashboardScreen
@@ -29,6 +35,7 @@ import com.example.test.ui.screens.ProductDetailScreen
 import com.example.test.ui.screens.SignUpScreen
 import com.example.test.ui.screens.UserDetailScreen
 import com.example.test.ui.theme.TestTheme
+import java.util.concurrent.TimeUnit
 
 class MainActivity : ComponentActivity() {
 
@@ -40,9 +47,11 @@ class MainActivity : ComponentActivity() {
         ).build()
     }
     private lateinit var viewModel: TestViewModel
+    private lateinit var workManager: WorkManager
 
     @OptIn(ExperimentalSharedTransitionApi::class)
     override fun onCreate(savedInstanceState: Bundle?) {
+        workManager= WorkManager.getInstance(this)
         val audioData = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
             intent.getParcelableExtra(Intent.EXTRA_STREAM, Uri::class.java)
         } else {
@@ -50,7 +59,7 @@ class MainActivity : ComponentActivity() {
         }
 
         val startDestination = if (intent?.action == Intent.ACTION_SEND) {
-            if (audioData!=null) {
+            if (audioData != null) {
                 Routes.AudioPlayerScreen(audioData.toString())
             } else {
                 Routes.LoginScreen
@@ -58,7 +67,10 @@ class MainActivity : ComponentActivity() {
         } else {
             Routes.LoginScreen
         }
-        viewModel=ViewModelProvider(this,TestViewModelFactory(Repo(this,db.productDao())))[TestViewModel::class.java]
+        viewModel = ViewModelProvider(
+            this,
+            TestViewModelFactory(Repo(this, db.productDao()))
+        )[TestViewModel::class.java]
         super.onCreate(savedInstanceState)
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
@@ -68,6 +80,8 @@ class MainActivity : ComponentActivity() {
                 0
             )
         }
+        startAudioWorker(this)
+
         enableEdgeToEdge()
         setContent {
             TestTheme {
@@ -78,41 +92,57 @@ class MainActivity : ComponentActivity() {
                         navController = navController,
                         startDestination = startDestination
                     )
-                     {
-                        composable<LoginScreen>{
+                    {
+                        composable<LoginScreen> {
                             LoginScreen(viewModel, navController)
                         }
-                        composable<EcommerceDashboardScreen>{
-                            EcommerceDashboardScreen(viewModel,navController, animatedVisibilityScope =this )
+                        composable<EcommerceDashboardScreen> {
+                            EcommerceDashboardScreen(
+                                viewModel,
+                                navController,
+                                animatedVisibilityScope = this
+                            )
                         }
-                        composable <ProductDetailScreen>{
-                            val args=it.toRoute<ProductDetailScreen>()
-                            ProductDetailScreen(title = args.title,price = args.price,description = args.description,
-                                image = args.image,navController, animatedVisibilityScope = this)
+                        composable<ProductDetailScreen> {
+                            val args = it.toRoute<ProductDetailScreen>()
+                            ProductDetailScreen(
+                                title = args.title,
+                                price = args.price,
+                                description = args.description,
+                                image = args.image,
+                                navController,
+                                animatedVisibilityScope = this
+                            )
                         }
 
-                        composable<SignUpScreen>{
-                            SignUpScreen(navController,viewModel)
+                        composable<SignUpScreen> {
+                            SignUpScreen(navController, viewModel)
                         }
-                        composable<ScreenA>{
-                            DashboardScreen(navController,viewModel)
+                        composable<ScreenA> {
+                            DashboardScreen(navController, viewModel)
                         }
-                        composable <ScreenB>{
-                            val args=it.toRoute<ScreenB>()
-                            UserDetailScreen(x = args.v,navController)
+                        composable<ScreenB> {
+                            val args = it.toRoute<ScreenB>()
+                            UserDetailScreen(x = args.v, navController)
                         }
-                        composable <FavoriteScreen>{
-                            FavoriteScreen(navController,viewModel)
+                        composable<FavoriteScreen> {
+                            FavoriteScreen(navController, viewModel)
                         }
-                        composable <LocalStorageTestScreen>
+                        composable<LocalStorageTestScreen>
                         {
-                            LocalStorageTestScreen(context = applicationContext, viewModel,navController)
+                            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
+                                LocalStorageTestScreen(
+                                    context = applicationContext,
+                                    viewModel,
+                                    navController
+                                )
+                            }
                         }
 
                         composable<AudioPlayerScreen> {
 
                             val args = it.toRoute<AudioPlayerScreen>()
-                            AudioPlayerScreen(audioUri = args.audioUri  )
+                            AudioPlayerScreen(audioUri = args.audioUri)
                         }
                     }
                 }
@@ -129,19 +159,22 @@ class MainActivity : ComponentActivity() {
 //    }
 
 
-
-
     @Suppress("UNCHECKED_CAST")
-    class TestViewModelFactory(private val repo: Repo): ViewModelProvider.Factory{
-        override fun <T : androidx.lifecycle.ViewModel> create(modelClass: Class<T>): T {
+    class TestViewModelFactory(private val repo: Repo) : ViewModelProvider.Factory {
+        override fun <T : ViewModel> create(modelClass: Class<T>): T {
             return TestViewModel(repo) as T
         }
     }
 
+    fun startAudioWorker(context: Context) {
+        val constraint = Constraints.Builder()
+            .setRequiredNetworkType(NetworkType.UNMETERED)
+            .build()
+
+        val workerBuilder = PeriodicWorkRequestBuilder<TestWorkManager>(20, TimeUnit.SECONDS)
+            .setConstraints(constraint)
+            .build()
+        workManager.enqueue(workerBuilder)
+    }
+
 }
-
-
-
-
-
-

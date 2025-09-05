@@ -1,13 +1,16 @@
 package com.example.test.ui.screens
 
-import android.util.Log
 import android.widget.Toast
 import androidx.compose.animation.AnimatedVisibilityScope
 import androidx.compose.animation.ExperimentalSharedTransitionApi
 import androidx.compose.animation.SharedTransitionScope
+import androidx.compose.animation.animateColor
+import androidx.compose.animation.core.RepeatMode
+import androidx.compose.animation.core.infiniteRepeatable
+import androidx.compose.animation.core.rememberInfiniteTransition
+import androidx.compose.animation.core.tween
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
-import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -48,7 +51,6 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontFamily
@@ -66,7 +68,6 @@ import com.example.test.Routes
 import com.example.test.TestViewModel
 import com.example.test.UIState
 import com.example.test.network.Product
-import kotlinx.coroutines.flow.forEach
 
 
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalSharedTransitionApi::class)
@@ -80,8 +81,11 @@ fun SharedTransitionScope.EcommerceDashboardScreen(viewModel: TestViewModel,
     var addToFav by remember{
         mutableStateOf(false)
     }
+
+
     LaunchedEffect(Unit) {
         viewModel.getProducts()
+
 
     }
     Scaffold(
@@ -173,14 +177,10 @@ fun SharedTransitionScope.EcommerceDashboardScreen(viewModel: TestViewModel,
                     contentPadding = PaddingValues(8.dp),
                     modifier = Modifier
                         .background(color = Color.White)
-                        .padding(innerPadding),
+                        .padding(innerPadding)
                 ) {
-
                     itemsIndexed(product) { index, item ->
-                        Box(modifier = Modifier.fillMaxSize()){
                             ProductDetailCard(product = item,navController,addToFav,viewModel,animatedVisibilityScope)
-
-                        }
                     }
                 }
             }
@@ -195,15 +195,31 @@ fun SharedTransitionScope.EcommerceDashboardScreen(viewModel: TestViewModel,
 fun SharedTransitionScope.ProductDetailCard(product: Product,
                       navController: NavController, addToFav:Boolean,
                                             viewModel: TestViewModel,
-                        animatedVisibilityScope: AnimatedVisibilityScope){
+                        animatedVisibilityScope: AnimatedVisibilityScope,){
     var addToFavCheck by remember {
         mutableStateOf(addToFav)
     }
     val context = LocalContext.current
+    viewModel.showFavorites()
     val favProducts by viewModel.favorites.collectAsState()
 
+    val transition = rememberInfiniteTransition()
+    val color by transition.animateColor(
+        initialValue = Color(0xFFF6CDBB),
+        targetValue = Color(0xFFFABC9F),
+        animationSpec = infiniteRepeatable(
+            tween(
+                durationMillis = 2000,
+                delayMillis = 1000
+            ),
+            repeatMode = RepeatMode.Reverse
+        )
+    )
 
-    Box(modifier = Modifier.fillMaxSize()){
+
+
+    Box(modifier = Modifier
+    .fillMaxSize()){
 
         Card(
             colors = CardDefaults.cardColors(
@@ -217,11 +233,7 @@ fun SharedTransitionScope.ProductDetailCard(product: Product,
                     .size(175.dp)
                     .clip(RoundedCornerShape(16.dp))
                     .background(
-                        brush = Brush.verticalGradient(
-                            colors = listOf(
-                                Color(0xFFF6CDBB), Color(0xFFF8F3F0)
-                            )
-                        )
+                        color
                     )
 
                 ) {

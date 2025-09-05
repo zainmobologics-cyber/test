@@ -13,6 +13,9 @@ import android.provider.MediaStore
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.annotation.RequiresApi
+import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.slideInVertically
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -25,10 +28,13 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
+import androidx.compose.material.icons.filled.MusicNote
 import androidx.compose.material.icons.filled.Share
 import androidx.compose.material3.Button
+import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -50,6 +56,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.example.test.R
@@ -79,10 +86,12 @@ fun LocalStorageTestScreen(context: Context,viewModel: TestViewModel,
             result = it
         }
     }
+    var visible by remember { mutableStateOf(false) }
 
     val audioFiles by viewModel.audioFiles.collectAsState()
     LaunchedEffect(Unit) {
         viewModel.getAudioFiles()
+        visible=true
     }
 
 
@@ -132,7 +141,8 @@ fun LocalStorageTestScreen(context: Context,viewModel: TestViewModel,
                 title = {
                     Row() {
                         IconButton(
-                            onClick = { navController.popBackStack()}
+                            onClick = { navController.popBackStack()
+                            }
                         ) {
                             Icon(
                                 Icons.Default.ArrowBack,
@@ -151,79 +161,92 @@ fun LocalStorageTestScreen(context: Context,viewModel: TestViewModel,
         },
     ) { innerPadding ->
         Column(modifier = Modifier.background(Color.White).padding(innerPadding)){
-            LazyColumn(horizontalAlignment = Alignment.CenterHorizontally,
-                verticalArrangement = Arrangement.Center,
-                modifier = Modifier.padding(8.dp)){
-                items(audioFiles){ index ->
-                    AudioFilesCard(index, navController)
-                    Spacer(modifier = Modifier.padding(10.dp))
+            AnimatedVisibility(visible = visible,
+                enter = fadeIn() + slideInVertically(),
+                modifier = Modifier.fillMaxSize()
+            ) {
+                LazyColumn(horizontalAlignment = Alignment.CenterHorizontally,
+                    verticalArrangement = Arrangement.Center,
+                    modifier = Modifier.padding(8.dp)){
+                    items(audioFiles){ index ->
+                        AudioFilesCard(index, navController)
+                        Spacer(modifier = Modifier.padding(10.dp))
 
+                    }
                 }
             }
         }
     }
 
-
-
-
-
-
 }
+
+
 @Composable
-fun AudioFilesCard(audioFile: AudioFile,navController: NavController){
-    val context=LocalContext.current
+fun AudioFilesCard(audioFile: AudioFile,navController: NavController) {
+    val context = LocalContext.current
     val parsedUri: Uri = audioFile.uri.toUri()
+
     Card(
-        elevation = CardDefaults.cardElevation(5.dp),
+        elevation = CardDefaults.cardElevation(8.dp),
+        shape = RoundedCornerShape(12.dp),
         colors = CardDefaults.cardColors(
-            containerColor = Color(0xFFFFF3F3),
-            contentColor = Color.Black
-
+            containerColor = Color(0xFFF6F0E9),
+            contentColor = Color(0xFF330101)
         ),
-        modifier = Modifier.clickable(
-            onClick = { navController.navigate(Routes.AudioPlayerScreen(audioFile.uri)) }
-        )
-
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(vertical = 4.dp)
+            .clickable(
+                onClick = { navController.navigate(Routes.AudioPlayerScreen(audioFile.uri)) }
+            )
     ) {
-        Box(Modifier.fillMaxWidth()){
-            Column(modifier = Modifier.padding(10.dp)) {
-
-                Text(text = "Name:  ${audioFile.title}",
-                    fontWeight = FontWeight.Bold)
-                Text(text = "Duration:  ${audioFile.duration.milliseconds} ")
-                Text(text = "Path: ${audioFile.filePath}")
-
-
+        Row(
+            modifier = Modifier
+                .padding(16.dp)
+                .fillMaxWidth(),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            Column(modifier = Modifier.weight(1f)) {
+                Text(
+                    text = audioFile.title,
+                    fontWeight = FontWeight.Bold,
+                    maxLines = 1,
+                    overflow = TextOverflow.Ellipsis,
+                )
+                Spacer(modifier = Modifier.padding(2.dp))
+                Text(
+                    text = "Duration: ${audioFile.duration.milliseconds}",
+                )
+                Spacer(modifier = Modifier.padding(2.dp))
+                Text(
+                    text = "Path: ${audioFile.filePath}",
+                    maxLines = 1,
+                    overflow = TextOverflow.Ellipsis,
+                    color = Color(0xFF4D1212)
+                )
             }
             IconButton(
                 onClick = {
-                    val intent=Intent(Intent.ACTION_SEND).apply {
-                        type="audio/*"
+                    val intent = Intent(Intent.ACTION_SEND).apply {
+                        type = "audio/*"
                         putExtra(Intent.EXTRA_STREAM, parsedUri)
                         addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
-
                     }
-                    if(intent.resolveActivity(context.packageManager)!=null){
-                        context.startActivity(Intent.createChooser(intent,"Share Audio File"))
-
+                    if (intent.resolveActivity(context.packageManager) != null) {
+                        context.startActivity(Intent.createChooser(intent, "Share Audio File"))
                     }
-
-                },
-                modifier = Modifier.align(Alignment.TopEnd)
+                }
             ) {
                 Icon(
                     imageVector = Icons.Default.Share,
-                    contentDescription = "Play"
+                    contentDescription = "Share Audio",
+                    tint = Color(0xFF79000E),
                 )
             }
+
         }
-
-
-
     }
-
 }
-
 fun saveText(context: Context,text:String, fileName:String){
     val file= File(context.filesDir,fileName)
     file.writeText(text)
@@ -242,9 +265,7 @@ fun saveImageToGallery(context: Context, bitmap: Bitmap, filename: String) {
     uri?.let {
         context.contentResolver.openOutputStream(it).use { outputStream ->
             outputStream?.let { stream ->
-                bitmap.compress(Bitmap.CompressFormat.JPEG, 100, stream)
-            }
-        }
+                bitmap.compress(Bitmap.CompressFormat.JPEG, 100, stream)            }        }
     }
 
 }

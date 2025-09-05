@@ -6,15 +6,9 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.test.network.AudioFile
 import com.example.test.network.Product
-import com.example.test.network.room.dao.ProductDao
 import kotlinx.coroutines.delay
-import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
-import kotlinx.coroutines.flow.StateFlow
-import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.collectLatest
-import kotlinx.coroutines.flow.emptyFlow
-import kotlinx.coroutines.flow.toList
 import kotlinx.coroutines.launch
 
 class TestViewModel(
@@ -48,7 +42,7 @@ class TestViewModel(
             val result = repo.getProducts()
             if (result.isSuccess) {
                 products.value = result.getOrDefault(emptyList())
-                uiState.value = UIState.Success(products.value)
+                uiState.value = UIState.Success(true)
 
             } else {
                 uiState.value = UIState.Error(result.exceptionOrNull()?.message.toString())
