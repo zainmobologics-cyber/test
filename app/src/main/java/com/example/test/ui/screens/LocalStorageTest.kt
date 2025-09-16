@@ -224,6 +224,7 @@ fun AudioFilesCard(audioFile: AudioFile,navController: NavController) {
                     overflow = TextOverflow.Ellipsis,
                     color = Color(0xFF4D1212)
                 )
+
             }
             IconButton(
                 onClick = {

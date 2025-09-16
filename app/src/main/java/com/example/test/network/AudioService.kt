@@ -1,5 +1,6 @@
 package com.example.test.network
 
+import android.Manifest
 import android.app.PendingIntent
 import android.app.Service
 import android.content.Intent
@@ -7,10 +8,12 @@ import android.media.MediaPlayer
 import android.os.IBinder
 import android.util.Log
 import androidx.annotation.OptIn
+import androidx.annotation.RequiresPermission
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Stop
 import androidx.compose.material3.Icon
 import androidx.core.app.NotificationCompat
+import androidx.core.app.NotificationManagerCompat
 import androidx.core.content.ContextCompat
 import androidx.media3.common.MediaItem
 import androidx.media3.common.util.UnstableApi
@@ -38,15 +41,17 @@ class AudioService: Service() {
             Actions.STOP.toString()-> {
                 stopSelf()
             }
+
         }
         return super.onStartCommand(intent, flags, startId)
     }
 
     enum class Actions{
         START,
-        STOP
+        STOP,
 
     }
+
 
     private fun start(intent: Intent){
 //        mediaPlayer = MediaPlayer.create(this, R.raw.bg_music)

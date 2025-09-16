@@ -20,10 +20,13 @@ import androidx.navigation.toRoute
 import androidx.room.Room
 import androidx.work.Constraints
 import androidx.work.NetworkType
+import androidx.work.OneTimeWorkRequestBuilder
 import androidx.work.PeriodicWorkRequestBuilder
 import androidx.work.WorkManager
 import com.example.test.Routes.*
 import com.example.test.network.TestWorkManager
+import com.example.test.network.alarmmanager.AlarmItem
+import com.example.test.network.alarmmanager.AndroidAlarmScheduler
 import com.example.test.network.room.dao.FavoriteDatabase
 import com.example.test.ui.screens.AudioPlayerScreen
 import com.example.test.ui.screens.DashboardScreen
@@ -35,6 +38,8 @@ import com.example.test.ui.screens.ProductDetailScreen
 import com.example.test.ui.screens.SignUpScreen
 import com.example.test.ui.screens.UserDetailScreen
 import com.example.test.ui.theme.TestTheme
+import java.time.LocalDateTime
+import java.time.LocalTime
 import java.util.concurrent.TimeUnit
 
 class MainActivity : ComponentActivity() {
@@ -80,11 +85,17 @@ class MainActivity : ComponentActivity() {
                 0
             )
         }
-        startAudioWorker(this)
+        startWorker(this)
 
         enableEdgeToEdge()
         setContent {
             TestTheme {
+                val scheduler = AndroidAlarmScheduler(this)
+                val alarmItem= AlarmItem(
+                    time = LocalDateTime.now().plusSeconds(10),
+                    message = "Alarm Triggered Successfully"
+                )
+                scheduler.triggerAlarm(alarmItem)
                 val navController = rememberNavController()
 
                 SharedTransitionLayout {
@@ -166,12 +177,12 @@ class MainActivity : ComponentActivity() {
         }
     }
 
-    fun startAudioWorker(context: Context) {
+    fun startWorker(context: Context) {
         val constraint = Constraints.Builder()
             .setRequiredNetworkType(NetworkType.UNMETERED)
             .build()
 
-        val workerBuilder = PeriodicWorkRequestBuilder<TestWorkManager>(20, TimeUnit.SECONDS)
+        val workerBuilder =PeriodicWorkRequestBuilder<TestWorkManager>(20, TimeUnit.SECONDS)
             .setConstraints(constraint)
             .build()
         workManager.enqueue(workerBuilder)
