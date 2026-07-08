@@ -1,0 +1,902 @@
+[
+  {
+    "word": "Ephemeral",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/əˈfemərəl/",
+    "definition": "Lasting for a very short time.",
+    "example": "The autumnal colors are beautiful but ephemeral.",
+    "synonyms": "Fleeting, Transient",
+    "etymology": "Greek: ephēmeros"
+  },
+  {
+    "word": "Meticulous",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/məˈtɪkjələs/",
+    "definition": "Showing great attention to detail.",
+    "example": "She kept meticulous records of every transaction.",
+    "synonyms": "Careful, Thorough",
+    "etymology": "Latin: metus"
+  },
+  {
+    "word": "Serendipity",
+    "partOfSpeech": "Noun",
+    "pronunciation": "/ˌserənˈdɪpɪti/",
+    "definition": "The occurrence of pleasant discoveries by chance.",
+    "example": "Finding the rare book was pure serendipity.",
+    "synonyms": "Fortuity, Luck",
+    "etymology": "From Serendip"
+  },
+  {
+    "word": "Resilient",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/rɪˈzɪliənt/",
+    "definition": "Able to recover quickly from difficulties.",
+    "example": "Children are often remarkably resilient.",
+    "synonyms": "Adaptable, Tough",
+    "etymology": "Latin: resilire"
+  },
+  {
+    "word": "Eloquent",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/ˈeləkwənt/",
+    "definition": "Fluent and persuasive in speaking or writing.",
+    "example": "The speaker delivered an eloquent address.",
+    "synonyms": "Articulate, Expressive",
+    "etymology": "Latin: eloqui"
+  },
+  {
+    "word": "Pragmatic",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/præɡˈmætɪk/",
+    "definition": "Dealing with things sensibly and realistically.",
+    "example": "They adopted a pragmatic approach to the problem.",
+    "synonyms": "Practical, Realistic",
+    "etymology": "Greek: pragma"
+  },
+  {
+    "word": "Ambiguous",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/æmˈbɪɡjuəs/",
+    "definition": "Open to more than one interpretation.",
+    "example": "His response was intentionally ambiguous.",
+    "synonyms": "Unclear, Vague",
+    "etymology": "Latin: ambiguus"
+  },
+  {
+    "word": "Benevolent",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/bəˈnevələnt/",
+    "definition": "Well meaning and kindly.",
+    "example": "The benevolent donor funded the project.",
+    "synonyms": "Kind, Compassionate",
+    "etymology": "Latin: bene volens"
+  },
+  {
+    "word": "Tenacious",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/təˈneɪʃəs/",
+    "definition": "Tending to keep a firm hold of something; persistent.",
+    "example": "Her tenacious efforts finally paid off.",
+    "synonyms": "Persistent, Determined",
+    "etymology": "Latin: tenax"
+  },
+  {
+    "word": "Ubiquitous",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/juːˈbɪkwɪtəs/",
+    "definition": "Present, appearing, or found everywhere.",
+    "example": "Smartphones have become ubiquitous in modern society.",
+    "synonyms": "Omnipresent, Universal",
+    "etymology": "Latin: ubique"
+  },
+  {
+    "word": "Cacophony",
+    "partOfSpeech": "Noun",
+    "pronunciation": "/kəˈkɒfəni/",
+    "definition": "A harsh, discordant mixture of sounds.",
+    "example": "The cacophony of car horns filled the street.",
+    "synonyms": "Dissonance, Racket",
+    "etymology": "Greek: kakophonia"
+  },
+  {
+    "word": "Diligent",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/ˈdɪlɪdʒənt/",
+    "definition": "Having or showing care and conscientiousness in one's work.",
+    "example": "He was diligent in checking every detail of the report.",
+    "synonyms": "Industrious, Assiduous",
+    "etymology": "Latin: diligens"
+  },
+  {
+    "word": "Enervate",
+    "partOfSpeech": "Verb",
+    "pronunciation": "/ˈenərveɪt/",
+    "definition": "To weaken someone mentally or physically.",
+    "example": "The oppressive heat began to enervate the hikers.",
+    "synonyms": "Weaken, Debilitate",
+    "etymology": "Latin: enervare"
+  },
+  {
+    "word": "Fastidious",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/fæˈstɪdiəs/",
+    "definition": "Very attentive to accuracy and detail; hard to please.",
+    "example": "She was fastidious about keeping her desk organized.",
+    "synonyms": "Meticulous, Picky",
+    "etymology": "Latin: fastidium"
+  },
+  {
+    "word": "Gregarious",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/ɡrɪˈɡeəriəs/",
+    "definition": "Fond of company; sociable.",
+    "example": "His gregarious nature made him popular at parties.",
+    "synonyms": "Sociable, Outgoing",
+    "etymology": "Latin: grex (flock)"
+  },
+  {
+    "word": "Harbinger",
+    "partOfSpeech": "Noun",
+    "pronunciation": "/ˈhɑːrbɪndʒər/",
+    "definition": "A person or thing that signals the approach of something.",
+    "example": "Dark clouds were a harbinger of the storm to come.",
+    "synonyms": "Omen, Herald",
+    "etymology": "Old French: herbergere"
+  },
+  {
+    "word": "Idiosyncrasy",
+    "partOfSpeech": "Noun",
+    "pronunciation": "/ˌɪdiəˈsɪŋkrəsi/",
+    "definition": "A distinctive or peculiar feature or habit.",
+    "example": "One of his idiosyncrasies was tapping his pen while thinking.",
+    "synonyms": "Quirk, Peculiarity",
+    "etymology": "Greek: idiosynkrasia"
+  },
+  {
+    "word": "Juxtapose",
+    "partOfSpeech": "Verb",
+    "pronunciation": "/ˈdʒʌkstəpoʊz/",
+    "definition": "To place two things side by side for contrast.",
+    "example": "The exhibit juxtaposes modern art with classical sculpture.",
+    "synonyms": "Contrast, Compare",
+    "etymology": "French: juxtaposer"
+  },
+  {
+    "word": "Kinetic",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/kɪˈnetɪk/",
+    "definition": "Relating to or resulting from motion.",
+    "example": "The sculpture used kinetic energy from wind to move.",
+    "synonyms": "Dynamic, Active",
+    "etymology": "Greek: kinetikos"
+  },
+  {
+    "word": "Labyrinth",
+    "partOfSpeech": "Noun",
+    "pronunciation": "/ˈlæbərɪnθ/",
+    "definition": "A complicated irregular network of passages; a maze.",
+    "example": "The old city streets formed a labyrinth of alleys.",
+    "synonyms": "Maze, Warren",
+    "etymology": "Greek: labyrinthos"
+  },
+  {
+    "word": "Magnanimous",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/mæɡˈnænɪməs/",
+    "definition": "Generous or forgiving, especially toward a rival.",
+    "example": "The champion was magnanimous in victory.",
+    "synonyms": "Generous, Noble",
+    "etymology": "Latin: magnus animus"
+  },
+  {
+    "word": "Nebulous",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/ˈnebjələs/",
+    "definition": "In the form of a cloud or haze; vague or ill-defined.",
+    "example": "His plans for the future remained nebulous.",
+    "synonyms": "Vague, Hazy",
+    "etymology": "Latin: nebulosus"
+  },
+  {
+    "word": "Obsequious",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/əbˈsiːkwiəs/",
+    "definition": "Obedient or attentive to an excessive degree.",
+    "example": "The obsequious waiter hovered at every table.",
+    "synonyms": "Servile, Fawning",
+    "etymology": "Latin: obsequium"
+  },
+  {
+    "word": "Panacea",
+    "partOfSpeech": "Noun",
+    "pronunciation": "/ˌpænəˈsiːə/",
+    "definition": "A solution or remedy for all difficulties or diseases.",
+    "example": "There is no panacea for economic inequality.",
+    "synonyms": "Cure-all, Remedy",
+    "etymology": "Greek: panakeia"
+  },
+  {
+    "word": "Quintessential",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/ˌkwɪntɪˈsenʃəl/",
+    "definition": "Representing the most perfect example of a quality.",
+    "example": "He is the quintessential gentleman.",
+    "synonyms": "Classic, Archetypal",
+    "etymology": "Latin: quinta essentia"
+  },
+  {
+    "word": "Rhetoric",
+    "partOfSpeech": "Noun",
+    "pronunciation": "/ˈretərɪk/",
+    "definition": "The art of effective or persuasive speaking or writing.",
+    "example": "The politician's rhetoric stirred the crowd.",
+    "synonyms": "Oratory, Eloquence",
+    "etymology": "Greek: rhetorike"
+  },
+  {
+    "word": "Sagacious",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/səˈɡeɪʃəs/",
+    "definition": "Having or showing keen mental discernment and sound judgment.",
+    "example": "The sagacious advisor foresaw the market shift.",
+    "synonyms": "Wise, Shrewd",
+    "etymology": "Latin: sagax"
+  },
+  {
+    "word": "Taciturn",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/ˈtæsɪtɜːrn/",
+    "definition": "Reserved or uncommunicative in speech.",
+    "example": "The taciturn farmer rarely spoke to strangers.",
+    "synonyms": "Reticent, Silent",
+    "etymology": "Latin: tacitus"
+  },
+  {
+    "word": "Unfathomable",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/ʌnˈfæðəməbl/",
+    "definition": "Impossible to understand fully; incapable of being measured.",
+    "example": "The ocean's depths remain largely unfathomable.",
+    "synonyms": "Incomprehensible, Immeasurable",
+    "etymology": "Old English: fæðm (embrace)"
+  },
+  {
+    "word": "Vindicate",
+    "partOfSpeech": "Verb",
+    "pronunciation": "/ˈvɪndɪkeɪt/",
+    "definition": "To clear someone of blame or suspicion.",
+    "example": "New evidence eventually vindicated the accused man.",
+    "synonyms": "Exonerate, Justify",
+    "etymology": "Latin: vindicare"
+  },
+  {
+    "word": "Whimsical",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/ˈwɪmzɪkəl/",
+    "definition": "Playfully quaint or fanciful, especially in an appealing way.",
+    "example": "The garden had a whimsical collection of statues.",
+    "synonyms": "Fanciful, Playful",
+    "etymology": "English: whimsy"
+  },
+  {
+    "word": "Xenophobia",
+    "partOfSpeech": "Noun",
+    "pronunciation": "/ˌzenəˈfoʊbiə/",
+    "definition": "Intense dislike or fear of people from other countries.",
+    "example": "The campaign spoke out against rising xenophobia.",
+    "synonyms": "Prejudice, Bigotry",
+    "etymology": "Greek: xenos + phobos"
+  },
+  {
+    "word": "Zealous",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/ˈzeləs/",
+    "definition": "Having or showing great energy or enthusiasm for a cause.",
+    "example": "She was a zealous advocate for animal rights.",
+    "synonyms": "Fervent, Passionate",
+    "etymology": "Greek: zelos"
+  },
+  {
+    "word": "Abstruse",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/æbˈstruːs/",
+    "definition": "Difficult to understand; obscure.",
+    "example": "The lecture on quantum theory was abstruse to most students.",
+    "synonyms": "Obscure, Esoteric",
+    "etymology": "Latin: abstrudere"
+  },
+  {
+    "word": "Belligerent",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/bəˈlɪdʒərənt/",
+    "definition": "Hostile and aggressive.",
+    "example": "The belligerent customer demanded a refund loudly.",
+    "synonyms": "Hostile, Combative",
+    "etymology": "Latin: belligerare"
+  },
+  {
+    "word": "Cognizant",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/ˈkɒɡnɪzənt/",
+    "definition": "Having knowledge or awareness of something.",
+    "example": "We must be cognizant of the risks involved.",
+    "synonyms": "Aware, Conscious",
+    "etymology": "Latin: cognoscere"
+  },
+  {
+    "word": "Deleterious",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/ˌdeləˈtɪəriəs/",
+    "definition": "Causing harm or damage.",
+    "example": "Smoking has deleterious effects on health.",
+    "synonyms": "Harmful, Damaging",
+    "etymology": "Greek: deleterios"
+  },
+  {
+    "word": "Effervescent",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/ˌefərˈvesənt/",
+    "definition": "Vivacious and enthusiastic; bubbly.",
+    "example": "Her effervescent personality lit up the room.",
+    "synonyms": "Bubbly, Vivacious",
+    "etymology": "Latin: effervescere"
+  },
+  {
+    "word": "Fortuitous",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/fɔːrˈtuːɪtəs/",
+    "definition": "Happening by chance, especially a lucky one.",
+    "example": "Their meeting at the airport was entirely fortuitous.",
+    "synonyms": "Lucky, Serendipitous",
+    "etymology": "Latin: fortuitus"
+  },
+  {
+    "word": "Garrulous",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/ˈɡærələs/",
+    "definition": "Excessively talkative, especially about trivial matters.",
+    "example": "The garrulous neighbor kept us on the porch for an hour.",
+    "synonyms": "Talkative, Chatty",
+    "etymology": "Latin: garrulus"
+  },
+  {
+    "word": "Hackneyed",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/ˈhæknid/",
+    "definition": "Overused and thus lacking in freshness or originality.",
+    "example": "The movie relied on hackneyed plot devices.",
+    "synonyms": "Clichéd, Trite",
+    "etymology": "English: hackney (horse for hire)"
+  },
+  {
+    "word": "Impetuous",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/ɪmˈpetʃuəs/",
+    "definition": "Acting quickly without thought or care.",
+    "example": "His impetuous decision cost him the promotion.",
+    "synonyms": "Rash, Impulsive",
+    "etymology": "Latin: impetus"
+  },
+  {
+    "word": "Jubilant",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/ˈdʒuːbɪlənt/",
+    "definition": "Feeling or expressing great happiness and triumph.",
+    "example": "The jubilant fans celebrated in the streets.",
+    "synonyms": "Elated, Joyful",
+    "etymology": "Latin: jubilare"
+  },
+  {
+    "word": "Laconic",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/ləˈkɒnɪk/",
+    "definition": "Using very few words; concise to the point of terseness.",
+    "example": "His laconic reply gave nothing away.",
+    "synonyms": "Terse, Succinct",
+    "etymology": "Greek: Lakonikos"
+  },
+  {
+    "word": "Malleable",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/ˈmæliəbl/",
+    "definition": "Easily influenced or shaped; capable of being hammered into shape.",
+    "example": "Young minds are often more malleable than adults'.",
+    "synonyms": "Pliable, Adaptable",
+    "etymology": "Latin: malleare"
+  },
+  {
+    "word": "Nonchalant",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/ˌnɒnʃəˈlɑːnt/",
+    "definition": "Feeling or appearing casually calm and relaxed.",
+    "example": "He gave a nonchalant shrug when asked about the results.",
+    "synonyms": "Indifferent, Casual",
+    "etymology": "French: nonchalant"
+  },
+  {
+    "word": "Obfuscate",
+    "partOfSpeech": "Verb",
+    "pronunciation": "/ˈɒbfʌskeɪt/",
+    "definition": "To render obscure, unclear, or unintelligible.",
+    "example": "The report seemed designed to obfuscate the real costs.",
+    "synonyms": "Confuse, Muddle",
+    "etymology": "Latin: obfuscare"
+  },
+  {
+    "word": "Perfunctory",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/pərˈfʌŋktəri/",
+    "definition": "Carried out with minimal effort or reflection.",
+    "example": "He gave a perfunctory nod and walked away.",
+    "synonyms": "Cursory, Superficial",
+    "etymology": "Latin: perfunctorius"
+  },
+  {
+    "word": "Quixotic",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/kwɪkˈsɒtɪk/",
+    "definition": "Extremely idealistic; unrealistic and impractical.",
+    "example": "His quixotic plan to reform the entire system failed.",
+    "synonyms": "Idealistic, Impractical",
+    "etymology": "From Don Quixote"
+  },
+  {
+    "word": "Recalcitrant",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/rɪˈkælsɪtrənt/",
+    "definition": "Having an obstinately uncooperative attitude toward authority.",
+    "example": "The recalcitrant student refused to follow instructions.",
+    "synonyms": "Defiant, Obstinate",
+    "etymology": "Latin: recalcitrare"
+  },
+  {
+    "word": "Sycophant",
+    "partOfSpeech": "Noun",
+    "pronunciation": "/ˈsɪkəfænt/",
+    "definition": "A person who acts obsequiously toward someone for personal gain.",
+    "example": "The king was surrounded by sycophants who never disagreed with him.",
+    "synonyms": "Flatterer, Toady",
+    "etymology": "Greek: sykophantes"
+  },
+  {
+    "word": "Trepidation",
+    "partOfSpeech": "Noun",
+    "pronunciation": "/ˌtrepɪˈdeɪʃən/",
+    "definition": "A feeling of fear or anxiety about something that may happen.",
+    "example": "She approached the interview with some trepidation.",
+    "synonyms": "Apprehension, Dread",
+    "etymology": "Latin: trepidare"
+  },
+  {
+    "word": "Umbrage",
+    "partOfSpeech": "Noun",
+    "pronunciation": "/ˈʌmbrɪdʒ/",
+    "definition": "Offense or annoyance.",
+    "example": "He took umbrage at the harsh criticism.",
+    "synonyms": "Offense, Resentment",
+    "etymology": "Latin: umbra (shade)"
+  },
+  {
+    "word": "Vicarious",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/vaɪˈkeəriəs/",
+    "definition": "Experienced through the feelings or actions of another person.",
+    "example": "She got vicarious pleasure from her daughter's success.",
+    "synonyms": "Indirect, Secondhand",
+    "etymology": "Latin: vicarius"
+  },
+  {
+    "word": "Wistful",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/ˈwɪstfəl/",
+    "definition": "Having a feeling of vague or regretful longing.",
+    "example": "He gave a wistful smile as he recalled his childhood.",
+    "synonyms": "Longing, Nostalgic",
+    "etymology": "English: wistly"
+  },
+  {
+    "word": "Zenith",
+    "partOfSpeech": "Noun",
+    "pronunciation": "/ˈziːnɪθ/",
+    "definition": "The time at which something is most powerful or successful.",
+    "example": "The empire reached its zenith in the second century.",
+    "synonyms": "Peak, Pinnacle",
+    "etymology": "Arabic: samt"
+  },
+  {
+    "word": "Acquiesce",
+    "partOfSpeech": "Verb",
+    "pronunciation": "/ˌækwiˈes/",
+    "definition": "To accept something reluctantly but without protest.",
+    "example": "She acquiesced to her manager's request without argument.",
+    "synonyms": "Comply, Consent",
+    "etymology": "Latin: acquiescere"
+  },
+  {
+    "word": "Bombastic",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/bɒmˈbæstɪk/",
+    "definition": "High-sounding but with little meaning; inflated.",
+    "example": "The politician's bombastic speech impressed few voters.",
+    "synonyms": "Pompous, Grandiloquent",
+    "etymology": "French: bombace (cotton padding)"
+  },
+  {
+    "word": "Capricious",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/kəˈprɪʃəs/",
+    "definition": "Given to sudden and unaccountable changes of mood or behavior.",
+    "example": "The weather in the mountains is famously capricious.",
+    "synonyms": "Fickle, Erratic",
+    "etymology": "Italian: capriccio"
+  },
+  {
+    "word": "Didactic",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/daɪˈdæktɪk/",
+    "definition": "Intended to teach, particularly in having moral instruction as an ulterior motive.",
+    "example": "The fable had an obviously didactic purpose.",
+    "synonyms": "Instructive, Moralistic",
+    "etymology": "Greek: didaktikos"
+  },
+  {
+    "word": "Ebullient",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/ɪˈbʊliənt/",
+    "definition": "Cheerful and full of energy.",
+    "example": "Her ebullient mood was contagious at the office.",
+    "synonyms": "Exuberant, Enthusiastic",
+    "etymology": "Latin: ebullire"
+  },
+  {
+    "word": "Frivolous",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/ˈfrɪvələs/",
+    "definition": "Not having any serious purpose or value.",
+    "example": "The court dismissed the case as frivolous.",
+    "synonyms": "Trivial, Superficial",
+    "etymology": "Latin: frivolus"
+  },
+  {
+    "word": "Gratuitous",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/ɡrəˈtuːɪtəs/",
+    "definition": "Uncalled for; lacking good reason; unwarranted.",
+    "example": "The film was criticized for its gratuitous violence.",
+    "synonyms": "Unwarranted, Unjustified",
+    "etymology": "Latin: gratuitus"
+  },
+  {
+    "word": "Hyperbole",
+    "partOfSpeech": "Noun",
+    "pronunciation": "/haɪˈpɜːrbəli/",
+    "definition": "Exaggerated statements not meant to be taken literally.",
+    "example": "Saying he waited 'a million years' was pure hyperbole.",
+    "synonyms": "Exaggeration, Overstatement",
+    "etymology": "Greek: hyperbole"
+  },
+  {
+    "word": "Iconoclast",
+    "partOfSpeech": "Noun",
+    "pronunciation": "/aɪˈkɒnəklæst/",
+    "definition": "A person who attacks cherished beliefs or institutions.",
+    "example": "The artist was seen as an iconoclast in his field.",
+    "synonyms": "Rebel, Dissenter",
+    "etymology": "Greek: eikonoklastes"
+  },
+  {
+    "word": "Kaleidoscope",
+    "partOfSpeech": "Noun",
+    "pronunciation": "/kəˈlaɪdəskoʊp/",
+    "definition": "A constantly changing pattern or sequence of elements.",
+    "example": "The festival was a kaleidoscope of colors and sounds.",
+    "synonyms": "Medley, Array",
+    "etymology": "Greek: kalos + eidos + skopeo"
+  },
+  {
+    "word": "Lethargic",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/ləˈθɑːrdʒɪk/",
+    "definition": "Affected by lack of energy or enthusiasm.",
+    "example": "The heat made everyone feel lethargic all afternoon.",
+    "synonyms": "Sluggish, Listless",
+    "etymology": "Greek: lethargikos"
+  },
+  {
+    "word": "Munificent",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/mjuːˈnɪfɪsənt/",
+    "definition": "Extremely generous.",
+    "example": "The munificent gift funded the entire scholarship program.",
+    "synonyms": "Generous, Lavish",
+    "etymology": "Latin: munificus"
+  },
+  {
+    "word": "Nostalgia",
+    "partOfSpeech": "Noun",
+    "pronunciation": "/nɒˈstældʒə/",
+    "definition": "A sentimental longing for the past.",
+    "example": "The old photographs filled her with nostalgia.",
+    "synonyms": "Reminiscence, Longing",
+    "etymology": "Greek: nostos + algos"
+  },
+  {
+    "word": "Ostentatious",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/ˌɒstenˈteɪʃəs/",
+    "definition": "Designed to impress or attract notice; showy.",
+    "example": "The ostentatious mansion had gold fixtures throughout.",
+    "synonyms": "Showy, Flashy",
+    "etymology": "Latin: ostentare"
+  },
+  {
+    "word": "Placate",
+    "partOfSpeech": "Verb",
+    "pronunciation": "/ˈpleɪkeɪt/",
+    "definition": "To make someone less angry or hostile.",
+    "example": "He offered a refund to placate the upset customer.",
+    "synonyms": "Appease, Pacify",
+    "etymology": "Latin: placare"
+  },
+  {
+    "word": "Querulous",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/ˈkwerʊləs/",
+    "definition": "Complaining in a petulant or whining manner.",
+    "example": "The querulous tenant called the landlord every day.",
+    "synonyms": "Complaining, Whiny",
+    "etymology": "Latin: querulus"
+  },
+  {
+    "word": "Reticent",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/ˈretɪsənt/",
+    "definition": "Not revealing one's thoughts or feelings readily.",
+    "example": "He was reticent about his plans for the future.",
+    "synonyms": "Reserved, Guarded",
+    "etymology": "Latin: reticere"
+  },
+  {
+    "word": "Stoic",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/ˈstoʊɪk/",
+    "definition": "Enduring pain or hardship without showing feelings.",
+    "example": "She remained stoic throughout the difficult surgery.",
+    "synonyms": "Impassive, Unemotional",
+    "etymology": "Greek: Stoikos"
+  },
+  {
+    "word": "Truculent",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/ˈtrʌkjələnt/",
+    "definition": "Eager or quick to argue or fight; aggressively defiant.",
+    "example": "The truculent teenager argued with every rule.",
+    "synonyms": "Belligerent, Combative",
+    "etymology": "Latin: truculentus"
+  },
+  {
+    "word": "Unctuous",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/ˈʌŋktʃuəs/",
+    "definition": "Excessively flattering or ingratiating in a way that seems insincere.",
+    "example": "The salesman's unctuous manner made her suspicious.",
+    "synonyms": "Oily, Smarmy",
+    "etymology": "Latin: unctum"
+  },
+  {
+    "word": "Vociferous",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/voʊˈsɪfərəs/",
+    "definition": "Vehement or clamorous in expressing one's views.",
+    "example": "The vociferous crowd demanded a refund.",
+    "synonyms": "Loud, Outspoken",
+    "etymology": "Latin: vociferari"
+  },
+  {
+    "word": "Wanton",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/ˈwɒntən/",
+    "definition": "Deliberate and unprovoked; reckless and unrestrained.",
+    "example": "The building suffered wanton destruction during the riot.",
+    "synonyms": "Reckless, Unrestrained",
+    "etymology": "Middle English: wan + towen"
+  },
+  {
+    "word": "Abnegation",
+    "partOfSpeech": "Noun",
+    "pronunciation": "/ˌæbnɪˈɡeɪʃən/",
+    "definition": "The act of renouncing or rejecting something, especially self-interest.",
+    "example": "Her self-abnegation impressed everyone at the monastery.",
+    "synonyms": "Self-denial, Renunciation",
+    "etymology": "Latin: abnegare"
+  },
+  {
+    "word": "Brevity",
+    "partOfSpeech": "Noun",
+    "pronunciation": "/ˈbrevɪti/",
+    "definition": "Concise and exact use of words in writing or speech.",
+    "example": "The editor praised the article's brevity and clarity.",
+    "synonyms": "Conciseness, Terseness",
+    "etymology": "Latin: brevis"
+  },
+  {
+    "word": "Circumspect",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/ˈsɜːrkəmspekt/",
+    "definition": "Wary and unwilling to take risks.",
+    "example": "The lawyer advised a circumspect approach to the negotiation.",
+    "synonyms": "Cautious, Prudent",
+    "etymology": "Latin: circumspicere"
+  },
+  {
+    "word": "Doldrums",
+    "partOfSpeech": "Noun",
+    "pronunciation": "/ˈdoʊldrəmz/",
+    "definition": "A state of stagnation or depression; low spirits.",
+    "example": "The economy has been stuck in the doldrums for months.",
+    "synonyms": "Slump, Malaise",
+    "etymology": "English: dol (dull)"
+  },
+  {
+    "word": "Enigma",
+    "partOfSpeech": "Noun",
+    "pronunciation": "/ɪˈnɪɡmə/",
+    "definition": "A person or thing that is mysterious or difficult to understand.",
+    "example": "His motives remained an enigma to his colleagues.",
+    "synonyms": "Mystery, Puzzle",
+    "etymology": "Greek: ainigma"
+  },
+  {
+    "word": "Fickle",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/ˈfɪkəl/",
+    "definition": "Changing frequently, especially regarding loyalties or affections.",
+    "example": "Public opinion can be remarkably fickle.",
+    "synonyms": "Inconstant, Capricious",
+    "etymology": "Old English: ficol"
+  },
+  {
+    "word": "Gauche",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/ɡoʊʃ/",
+    "definition": "Lacking ease or grace; unsophisticated and socially awkward.",
+    "example": "His gauche comment embarrassed the whole table.",
+    "synonyms": "Awkward, Tactless",
+    "etymology": "French: gauche (left)"
+  },
+  {
+    "word": "Hedonistic",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/ˌhiːdəˈnɪstɪk/",
+    "definition": "Engaged in or devoted to the pursuit of pleasure.",
+    "example": "He led a hedonistic lifestyle during his years abroad.",
+    "synonyms": "Pleasure-seeking, Self-indulgent",
+    "etymology": "Greek: hedone"
+  },
+  {
+    "word": "Immutable",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/ɪˈmjuːtəbl/",
+    "definition": "Unchanging over time or unable to be changed.",
+    "example": "The laws of physics are considered immutable.",
+    "synonyms": "Fixed, Unchangeable",
+    "etymology": "Latin: immutabilis"
+  },
+  {
+    "word": "Juggernaut",
+    "partOfSpeech": "Noun",
+    "pronunciation": "/ˈdʒʌɡərnɔːt/",
+    "definition": "A huge, powerful, and overwhelming force or institution.",
+    "example": "The company became a juggernaut in the tech industry.",
+    "synonyms": "Behemoth, Colossus",
+    "etymology": "Hindi: Jagannath"
+  },
+  {
+    "word": "Knell",
+    "partOfSpeech": "Noun",
+    "pronunciation": "/nel/",
+    "definition": "The sound of a bell, especially rung solemnly for a death or disaster.",
+    "example": "The factory closure sounded the knell for the small town's economy.",
+    "synonyms": "Toll, Death signal",
+    "etymology": "Old English: cnyll"
+  },
+  {
+    "word": "Lackadaisical",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/ˌlækəˈdeɪzɪkəl/",
+    "definition": "Lacking enthusiasm and determination; carelessly lazy.",
+    "example": "His lackadaisical attitude toward deadlines frustrated the team.",
+    "synonyms": "Half-hearted, Apathetic",
+    "etymology": "English: lackaday"
+  },
+  {
+    "word": "Mellifluous",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/məˈlɪfluəs/",
+    "definition": "Sweet or musical; pleasant to hear.",
+    "example": "Her mellifluous voice calmed the nervous audience.",
+    "synonyms": "Melodious, Euphonious",
+    "etymology": "Latin: mel + fluere"
+  },
+  {
+    "word": "Nadir",
+    "partOfSpeech": "Noun",
+    "pronunciation": "/ˈneɪdɪər/",
+    "definition": "The lowest or most unsuccessful point in a situation.",
+    "example": "The scandal marked the nadir of his career.",
+    "synonyms": "Low point, Bottom",
+    "etymology": "Arabic: nazir"
+  },
+  {
+    "word": "Opulent",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/ˈɒpjələnt/",
+    "definition": "Ostentatiously rich and luxurious.",
+    "example": "The hotel lobby was opulent, with marble floors and gold trim.",
+    "synonyms": "Lavish, Luxurious",
+    "etymology": "Latin: opulentus"
+  },
+  {
+    "word": "Pernicious",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/pərˈnɪʃəs/",
+    "definition": "Having a harmful effect, especially in a gradual or subtle way.",
+    "example": "The pernicious influence of misinformation spread quickly online.",
+    "synonyms": "Harmful, Insidious",
+    "etymology": "Latin: perniciosus"
+  },
+  {
+    "word": "Quiescent",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/kwiˈesənt/",
+    "definition": "In a state or period of inactivity or dormancy.",
+    "example": "The volcano has been quiescent for over a century.",
+    "synonyms": "Dormant, Inactive",
+    "etymology": "Latin: quiescere"
+  },
+  {
+    "word": "Ravenous",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/ˈrævənəs/",
+    "definition": "Extremely hungry; voracious.",
+    "example": "After the hike, they were ravenous and ate everything in sight.",
+    "synonyms": "Starving, Voracious",
+    "etymology": "Old French: ravineux"
+  },
+  {
+    "word": "Sanguine",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/ˈsæŋɡwɪn/",
+    "definition": "Optimistic or positive, especially in a difficult situation.",
+    "example": "Despite the setbacks, she remained sanguine about the outcome.",
+    "synonyms": "Optimistic, Hopeful",
+    "etymology": "Latin: sanguineus"
+  },
+  {
+    "word": "Torpid",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/ˈtɔːrpɪd/",
+    "definition": "Mentally or physically inactive; lethargic.",
+    "example": "The heat left everyone feeling torpid by mid-afternoon.",
+    "synonyms": "Sluggish, Lethargic",
+    "etymology": "Latin: torpere"
+  },
+  {
+    "word": "Usurp",
+    "partOfSpeech": "Verb",
+    "pronunciation": "/juːˈsɜːrp/",
+    "definition": "To take a position of power or importance illegally or by force.",
+    "example": "Aegon II usurped Rhaenyra's throne.",
+    "synonyms": "Seize, Commandeer",
+    "etymology": "Latin: usurpare"
+  },
+  {
+    "word": "Vexatious",
+    "partOfSpeech": "Adjective",
+    "pronunciation": "/vekˈseɪʃəs/",
+    "definition": "Causing or tending to cause annoyance, frustration, or worry.",
+    "example": "The lawsuit was dismissed as vexatious and without merit.",
+    "synonyms": "Annoying, Irritating",
+    "etymology": "Latin: vexare"
+  }
+]
