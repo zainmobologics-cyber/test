@@ -1,0 +1,2423 @@
+[
+  {
+    "title": "Their vs. There vs. They're",
+    "description": "Mastering these homophones is one of the fastest ways to improve your professional writing and credibility.",
+    "words": [
+      {
+        "word": "their",
+        "usage": "Possessive",
+        "detail": "Shows that something belongs to more than one person.",
+        "wrongExample": "I like they're new car.",
+        "correctExample": "I like their new car."
+      },
+      {
+        "word": "there",
+        "usage": "Location or Existence",
+        "detail": "Refers to a place, or used to state that something exists.",
+        "wrongExample": "There going to be late for dinner.",
+        "correctExample": "Please put the delivery over there."
+      },
+      {
+        "word": "they're",
+        "usage": "Contraction",
+        "detail": "A shortened version of \"they are\". If you can replace it with \"they are,\" this is the correct choice.",
+        "wrongExample": "They're car is parked in the driveway.",
+        "correctExample": "They're coming to the party tonight."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "I wonder if ______ ready for the presentation.",
+      "correctOption": 2
+    }
+  },
+  {
+    "title": "Your vs. You're",
+    "description": "One shows possession, the other is a contraction of 'you are'.",
+    "words": [
+      {
+        "word": "your",
+        "usage": "Possessive",
+        "detail": "Shows that something belongs to you.",
+        "wrongExample": "Your going to love this movie.",
+        "correctExample": "Is this your backpack?"
+      },
+      {
+        "word": "you're",
+        "usage": "Contraction",
+        "detail": "Short for 'you are'.",
+        "wrongExample": "I like you're new haircut.",
+        "correctExample": "You're doing a great job."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "______ welcome to join us anytime.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Its vs. It's",
+    "description": "A common mistake involving possession and contractions.",
+    "words": [
+      {
+        "word": "its",
+        "usage": "Possessive",
+        "detail": "Shows ownership.",
+        "wrongExample": "The cat licked it's paw.",
+        "correctExample": "The company changed its policy."
+      },
+      {
+        "word": "it's",
+        "usage": "Contraction",
+        "detail": "Short for 'it is' or 'it has'.",
+        "wrongExample": "Its raining outside.",
+        "correctExample": "It's a beautiful day."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "______ been a long day at work.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Then vs. Than",
+    "description": "One relates to time, the other to comparisons.",
+    "words": [
+      {
+        "word": "then",
+        "usage": "Time or Sequence",
+        "detail": "Used to indicate what happens next.",
+        "wrongExample": "She is taller then her sister.",
+        "correctExample": "Finish your homework, then watch TV."
+      },
+      {
+        "word": "than",
+        "usage": "Comparison",
+        "detail": "Used when comparing things.",
+        "wrongExample": "We went to dinner than a movie.",
+        "correctExample": "This book is better than the last one."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "She runs faster ______ I do.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "To vs. Too vs. Two",
+    "description": "Three words that sound alike but have different meanings.",
+    "words": [
+      {
+        "word": "to",
+        "usage": "Preposition",
+        "detail": "Shows direction, destination, or relationship.",
+        "wrongExample": "I want too go home.",
+        "correctExample": "Let's go to the park."
+      },
+      {
+        "word": "too",
+        "usage": "Also or Excessively",
+        "detail": "Means 'also' or 'more than necessary'.",
+        "wrongExample": "I have to brothers.",
+        "correctExample": "I want to come too."
+      },
+      {
+        "word": "two",
+        "usage": "Number",
+        "detail": "The number 2.",
+        "wrongExample": "There are too apples on the table.",
+        "correctExample": "She has two dogs."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "I have ______ tickets for the show tonight.",
+      "correctOption": 2
+    }
+  },
+  {
+    "title": "Affect vs. Effect",
+    "description": "One is usually a verb, the other usually a noun.",
+    "words": [
+      {
+        "word": "affect",
+        "usage": "Verb",
+        "detail": "To influence or make a difference to something.",
+        "wrongExample": "The new law had a positive affect.",
+        "correctExample": "The weather can affect your mood."
+      },
+      {
+        "word": "effect",
+        "usage": "Noun",
+        "detail": "The result or consequence of an action.",
+        "wrongExample": "The medicine may effect your sleep.",
+        "correctExample": "The effect was immediate."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "The storm could ______ our travel plans.",
+      "correctOption": 0
+    }
+  },
+  {
+    "title": "Lose vs. Loose",
+    "description": "A spelling difference that changes the meaning completely.",
+    "words": [
+      {
+        "word": "lose",
+        "usage": "Verb",
+        "detail": "To misplace or fail to win.",
+        "wrongExample": "Be careful not to loose your keys.",
+        "correctExample": "I don't want to lose this game."
+      },
+      {
+        "word": "loose",
+        "usage": "Adjective",
+        "detail": "Not tight or securely attached.",
+        "wrongExample": "If you lose the knot, tighten it.",
+        "correctExample": "The screw is loose."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "Don't ______ your passport while traveling.",
+      "correctOption": 0
+    }
+  },
+  {
+    "title": "Fewer vs. Less",
+    "description": "Countable items use one word; uncountable quantities use the other.",
+    "words": [
+      {
+        "word": "fewer",
+        "usage": "Countable Nouns",
+        "detail": "Used with things you can count individually.",
+        "wrongExample": "There are less students today.",
+        "correctExample": "There are fewer students today."
+      },
+      {
+        "word": "less",
+        "usage": "Uncountable Nouns",
+        "detail": "Used with quantities that are not individually counted.",
+        "wrongExample": "I have fewer money than before.",
+        "correctExample": "I have less money than before."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "I have ______ books than you do.",
+      "correctOption": 0
+    }
+  },
+  {
+    "title": "Who's vs. Whose",
+    "description": "A common confusion between possession and contraction.",
+    "words": [
+      {
+        "word": "who's",
+        "usage": "Contraction",
+        "detail": "Short for 'who is' or 'who has'.",
+        "wrongExample": "Whose coming to dinner tonight?",
+        "correctExample": "Who's at the door?"
+      },
+      {
+        "word": "whose",
+        "usage": "Possessive",
+        "detail": "Shows ownership.",
+        "wrongExample": "Who's backpack is this?",
+        "correctExample": "Whose turn is it?"
+      }
+    ],
+    "grammarQuestions": {
+      "question": "______ jacket is this on the chair?",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Accept vs. Except",
+    "description": "One means to receive, the other means excluding something.",
+    "words": [
+      {
+        "word": "accept",
+        "usage": "Verb",
+        "detail": "To agree to receive or believe something.",
+        "wrongExample": "I except your apology.",
+        "correctExample": "I accept your apology."
+      },
+      {
+        "word": "except",
+        "usage": "Preposition",
+        "detail": "Meaning 'excluding' or 'other than'.",
+        "wrongExample": "Everyone accept John came to the party.",
+        "correctExample": "Everyone except John came to the party."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "I like all vegetables ______ broccoli.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Advice vs. Advise",
+    "description": "Advice is a noun; advise is the verb form.",
+    "words": [
+      {
+        "word": "advice",
+        "usage": "Noun",
+        "detail": "A recommendation or suggestion someone gives you.",
+        "wrongExample": "Let me advice you on this matter.",
+        "correctExample": "Let me give you some advice."
+      },
+      {
+        "word": "advise",
+        "usage": "Verb",
+        "detail": "To offer a recommendation or suggestion.",
+        "wrongExample": "I want to advice you to be careful.",
+        "correctExample": "I advise you to be careful."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "My lawyer will ______ me on the contract.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Complement vs. Compliment",
+    "description": "One means to complete something, the other means to praise it.",
+    "words": [
+      {
+        "word": "complement",
+        "usage": "Verb/Noun",
+        "detail": "Something that completes or goes well with something else.",
+        "wrongExample": "The scarf compliments her outfit.",
+        "correctExample": "The scarf complements her outfit."
+      },
+      {
+        "word": "compliment",
+        "usage": "Verb/Noun",
+        "detail": "An expression of praise or admiration.",
+        "wrongExample": "He gave her a nice complement.",
+        "correctExample": "He gave her a nice compliment."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "She paid me a lovely ______ on my presentation.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Stationary vs. Stationery",
+    "description": "One means not moving, the other refers to writing paper.",
+    "words": [
+      {
+        "word": "stationary",
+        "usage": "Adjective",
+        "detail": "Not moving; fixed in one place.",
+        "wrongExample": "The car remained stationery at the light.",
+        "correctExample": "The car remained stationary at the light."
+      },
+      {
+        "word": "stationery",
+        "usage": "Noun",
+        "detail": "Writing materials such as paper and envelopes.",
+        "wrongExample": "I bought new stationary for the office.",
+        "correctExample": "I bought new stationery for the office."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "The truck stayed ______ while we unloaded the boxes.",
+      "correctOption": 0
+    }
+  },
+  {
+    "title": "Principal vs. Principle",
+    "description": "One refers to a person or main thing, the other to a fundamental rule.",
+    "words": [
+      {
+        "word": "principal",
+        "usage": "Noun/Adjective",
+        "detail": "The head of a school, or the most important thing.",
+        "wrongExample": "She always stands by her principals.",
+        "correctExample": "The principal called an assembly."
+      },
+      {
+        "word": "principle",
+        "usage": "Noun",
+        "detail": "A fundamental truth or rule that guides behavior.",
+        "wrongExample": "The school principle gave a speech.",
+        "correctExample": "Honesty is one of her core principles."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "He refused to compromise his ______.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Weather vs. Whether",
+    "description": "One describes atmospheric conditions, the other introduces a choice.",
+    "words": [
+      {
+        "word": "weather",
+        "usage": "Noun",
+        "detail": "The state of the atmosphere, such as rain or sunshine.",
+        "wrongExample": "I don't know whether it will rain today.",
+        "correctExample": "The weather is lovely today."
+      },
+      {
+        "word": "whether",
+        "usage": "Conjunction",
+        "detail": "Used to express a choice between alternatives.",
+        "wrongExample": "I'm not sure about the weather to go.",
+        "correctExample": "I'm not sure whether to go."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "I don't know ______ we should leave now or wait.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Break vs. Brake",
+    "description": "One means to shatter or pause, the other is a part of a vehicle.",
+    "words": [
+      {
+        "word": "break",
+        "usage": "Verb/Noun",
+        "detail": "To separate into pieces, or a pause from work.",
+        "wrongExample": "Press the brake pedal to break for lunch.",
+        "correctExample": "Let's take a break for lunch."
+      },
+      {
+        "word": "brake",
+        "usage": "Noun/Verb",
+        "detail": "A device used to stop or slow a vehicle.",
+        "wrongExample": "He pressed the break to stop the car.",
+        "correctExample": "He pressed the brake to stop the car."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "The driver had to ______ suddenly to avoid the dog.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Peace vs. Piece",
+    "description": "One means calm or absence of conflict, the other means a part of something.",
+    "words": [
+      {
+        "word": "peace",
+        "usage": "Noun",
+        "detail": "A state of calm or absence of war and conflict.",
+        "wrongExample": "Can I have a piece of mind?",
+        "correctExample": "I just want some peace and quiet."
+      },
+      {
+        "word": "piece",
+        "usage": "Noun",
+        "detail": "A part or portion of something.",
+        "wrongExample": "Would you like a peace of cake?",
+        "correctExample": "Would you like a piece of cake?"
+      }
+    ],
+    "grammarQuestions": {
+      "question": "She gave him a ______ of advice before the interview.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Right vs. Write",
+    "description": "One means correct or a direction, the other means to compose text.",
+    "words": [
+      {
+        "word": "right",
+        "usage": "Adjective/Noun",
+        "detail": "Correct, or a direction opposite of left.",
+        "wrongExample": "Please write the answer.",
+        "correctExample": "Please turn right at the light."
+      },
+      {
+        "word": "write",
+        "usage": "Verb",
+        "detail": "To compose or put words on paper.",
+        "wrongExample": "I need to right a letter.",
+        "correctExample": "I need to write a letter."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "Please ______ your name at the top of the page.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Bare vs. Bear",
+    "description": "One means uncovered, the other is an animal or means to endure.",
+    "words": [
+      {
+        "word": "bare",
+        "usage": "Adjective",
+        "detail": "Uncovered or plain, without decoration.",
+        "wrongExample": "He walked around with bear feet.",
+        "correctExample": "He walked around with bare feet."
+      },
+      {
+        "word": "bear",
+        "usage": "Noun/Verb",
+        "detail": "A large animal, or to endure something.",
+        "wrongExample": "I can't bare this pain any longer.",
+        "correctExample": "I can't bear this pain any longer."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "I can barely ______ to watch this movie again.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Board vs. Bored",
+    "description": "One is a flat surface or a group of people, the other describes a feeling.",
+    "words": [
+      {
+        "word": "board",
+        "usage": "Noun",
+        "detail": "A flat piece of material, or a group of directors.",
+        "wrongExample": "I'm so bored of directors decided the plan.",
+        "correctExample": "The board of directors decided the plan."
+      },
+      {
+        "word": "bored",
+        "usage": "Adjective",
+        "detail": "Feeling weary and uninterested.",
+        "wrongExample": "I am so board right now.",
+        "correctExample": "I am so bored right now."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "The children got ______ waiting for the bus.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Desert vs. Dessert",
+    "description": "One is a dry region, the other is a sweet course after a meal.",
+    "words": [
+      {
+        "word": "desert",
+        "usage": "Noun/Verb",
+        "detail": "A dry, barren area of land, or to abandon someone.",
+        "wrongExample": "We had dessert for our camel trip.",
+        "correctExample": "We rode camels across the desert."
+      },
+      {
+        "word": "dessert",
+        "usage": "Noun",
+        "detail": "A sweet dish eaten after the main course.",
+        "wrongExample": "For desert, we had a delicious desert.",
+        "correctExample": "For dessert, we had a delicious cake."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "Would you like some ice cream for ______?",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Elicit vs. Illicit",
+    "description": "One means to draw out a response, the other means illegal.",
+    "words": [
+      {
+        "word": "elicit",
+        "usage": "Verb",
+        "detail": "To draw out a response or reaction.",
+        "wrongExample": "The question was designed to illicit a reaction.",
+        "correctExample": "The question was designed to elicit a reaction."
+      },
+      {
+        "word": "illicit",
+        "usage": "Adjective",
+        "detail": "Forbidden by law or rules; illegal.",
+        "wrongExample": "They were caught in an elicit deal.",
+        "correctExample": "They were caught in an illicit deal."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "The interviewer tried to ______ an honest answer.",
+      "correctOption": 0
+    }
+  },
+  {
+    "title": "Farther vs. Further",
+    "description": "One refers to physical distance, the other to figurative or additional extent.",
+    "words": [
+      {
+        "word": "farther",
+        "usage": "Adverb/Adjective",
+        "detail": "Refers to physical or measurable distance.",
+        "wrongExample": "We need to discuss this further down the road.",
+        "correctExample": "The store is farther down the road."
+      },
+      {
+        "word": "further",
+        "usage": "Adverb/Adjective",
+        "detail": "Refers to additional degree, time, or extent.",
+        "wrongExample": "Let's talk farther about this later.",
+        "correctExample": "Let's discuss this further later."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "I don't want to explore that topic any ______.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Allowed vs. Aloud",
+    "description": "One means permitted, the other means spoken out loud.",
+    "words": [
+      {
+        "word": "allowed",
+        "usage": "Adjective/Verb",
+        "detail": "Given permission to do something.",
+        "wrongExample": "Please read aloud in the library.",
+        "correctExample": "You are allowed to leave early today."
+      },
+      {
+        "word": "aloud",
+        "usage": "Adverb",
+        "detail": "Spoken so that it can be heard.",
+        "wrongExample": "She read the letter allowed to everyone.",
+        "correctExample": "She read the letter aloud to everyone."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "The teacher asked him to read the poem ______.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Cite vs. Sight",
+    "description": "One means to reference a source, the other relates to vision or a view.",
+    "words": [
+      {
+        "word": "cite",
+        "usage": "Verb",
+        "detail": "To quote or reference a source as evidence.",
+        "wrongExample": "The beautiful sight was cited in the review.",
+        "correctExample": "You must cite your sources in the essay."
+      },
+      {
+        "word": "sight",
+        "usage": "Noun",
+        "detail": "The ability to see, or something seen.",
+        "wrongExample": "The mountain was a beautiful cite.",
+        "correctExample": "The mountain was a beautiful sight."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "Please ______ your references at the end of the report.",
+      "correctOption": 0
+    }
+  },
+  {
+    "title": "Council vs. Counsel",
+    "description": "One is a group that makes decisions, the other means advice or a legal advisor.",
+    "words": [
+      {
+        "word": "council",
+        "usage": "Noun",
+        "detail": "A group of people who manage or advise on something.",
+        "wrongExample": "The lawyer gave her council on the case.",
+        "correctExample": "The city council approved the new park."
+      },
+      {
+        "word": "counsel",
+        "usage": "Noun/Verb",
+        "detail": "Advice, or a lawyer, or to give advice.",
+        "wrongExample": "The town council met at his office.",
+        "correctExample": "Her lawyer will counsel her before the hearing."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "The therapist offered helpful ______ during the session.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Discreet vs. Discrete",
+    "description": "One means careful and private, the other means separate or distinct.",
+    "words": [
+      {
+        "word": "discreet",
+        "usage": "Adjective",
+        "detail": "Careful to avoid drawing attention; tactful.",
+        "wrongExample": "The data was stored in discrete files without anyone noticing.",
+        "correctExample": "Please be discreet about the surprise party."
+      },
+      {
+        "word": "discrete",
+        "usage": "Adjective",
+        "detail": "Individually separate and distinct.",
+        "wrongExample": "She was very discrete about the surprise.",
+        "correctExample": "The data was stored in discrete files."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "The two projects are completely ______ from one another.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Emigrate vs. Immigrate",
+    "description": "One means leaving a country, the other means entering a new one.",
+    "words": [
+      {
+        "word": "emigrate",
+        "usage": "Verb",
+        "detail": "To leave one's own country to live elsewhere.",
+        "wrongExample": "They immigrated from Italy in 1990.",
+        "correctExample": "They emigrated from Italy in 1990."
+      },
+      {
+        "word": "immigrate",
+        "usage": "Verb",
+        "detail": "To come to live permanently in a new country.",
+        "wrongExample": "They plan to emigrate to Canada next year.",
+        "correctExample": "They plan to immigrate to Canada next year."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "Many families ______ to the United States each year.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Envelop vs. Envelope",
+    "description": "One is a verb meaning to surround, the other is a paper container for letters.",
+    "words": [
+      {
+        "word": "envelop",
+        "usage": "Verb",
+        "detail": "To surround or wrap something completely.",
+        "wrongExample": "Put the letter in the envelop.",
+        "correctExample": "Fog began to envelop the entire valley."
+      },
+      {
+        "word": "envelope",
+        "usage": "Noun",
+        "detail": "A flat paper container used to hold a letter.",
+        "wrongExample": "The fog began to envelope the valley.",
+        "correctExample": "Please seal the envelope before mailing it."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "Smoke started to ______ the building within minutes.",
+      "correctOption": 0
+    }
+  },
+  {
+    "title": "Flair vs. Flare",
+    "description": "One means a natural talent, the other refers to a bright flame or sudden burst.",
+    "words": [
+      {
+        "word": "flair",
+        "usage": "Noun",
+        "detail": "A natural talent or stylish quality.",
+        "wrongExample": "She lit a flair to signal for help.",
+        "correctExample": "She has a flair for design."
+      },
+      {
+        "word": "flare",
+        "usage": "Noun/Verb",
+        "detail": "A sudden burst of flame or light, or to widen.",
+        "wrongExample": "She has a real flare for design.",
+        "correctExample": "The sailors lit a flare to signal for help."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "The chef added a personal ______ to the classic recipe.",
+      "correctOption": 0
+    }
+  },
+  {
+    "title": "Hoard vs. Horde",
+    "description": "One means to stockpile, the other refers to a large crowd.",
+    "words": [
+      {
+        "word": "hoard",
+        "usage": "Verb/Noun",
+        "detail": "To collect and store a large supply of something.",
+        "wrongExample": "A horde of supplies filled the basement.",
+        "correctExample": "She began to hoard canned food before the storm."
+      },
+      {
+        "word": "horde",
+        "usage": "Noun",
+        "detail": "A large group or crowd of people.",
+        "wrongExample": "A hoard of fans waited outside the stadium.",
+        "correctExample": "A horde of fans waited outside the stadium."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "The squirrel began to ______ nuts for the winter.",
+      "correctOption": 0
+    }
+  },
+  {
+    "title": "Human vs. Humane",
+    "description": "One refers to people, the other describes compassion.",
+    "words": [
+      {
+        "word": "human",
+        "usage": "Adjective/Noun",
+        "detail": "Relating to people, or a person.",
+        "wrongExample": "The shelter promotes humane rights.",
+        "correctExample": "Every human being deserves respect."
+      },
+      {
+        "word": "humane",
+        "usage": "Adjective",
+        "detail": "Showing compassion and kindness, especially to animals.",
+        "wrongExample": "The shelter promotes human treatment of animals.",
+        "correctExample": "The shelter promotes humane treatment of animals."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "The organization advocates for ______ treatment of animals.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Imply vs. Infer",
+    "description": "One means to suggest, the other means to conclude from evidence.",
+    "words": [
+      {
+        "word": "imply",
+        "usage": "Verb",
+        "detail": "To suggest something indirectly, without stating it outright.",
+        "wrongExample": "Are you inferring that I'm wrong?",
+        "correctExample": "Are you implying that I'm wrong?"
+      },
+      {
+        "word": "infer",
+        "usage": "Verb",
+        "detail": "To draw a conclusion based on evidence or reasoning.",
+        "wrongExample": "From your tone, I imply that you're upset.",
+        "correctExample": "From your tone, I infer that you're upset."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "I could ______ from her silence that she disagreed.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Later vs. Latter",
+    "description": "One relates to time, the other refers to the second of two items.",
+    "words": [
+      {
+        "word": "later",
+        "usage": "Adverb",
+        "detail": "At a time after the present or after a specific event.",
+        "wrongExample": "Of the two options, I prefer the latter time.",
+        "correctExample": "I'll see you later this afternoon."
+      },
+      {
+        "word": "latter",
+        "usage": "Adjective/Noun",
+        "detail": "Referring to the second of two things mentioned.",
+        "wrongExample": "I'll call you the latter tonight.",
+        "correctExample": "Of the two choices, I prefer the latter."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "Between coffee and tea, I usually choose the ______.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Lay vs. Lie",
+    "description": "Lay requires an object; lie does not.",
+    "words": [
+      {
+        "word": "lay",
+        "usage": "Verb (transitive)",
+        "detail": "To place something down; requires an object.",
+        "wrongExample": "I'm going to lie the book on the table.",
+        "correctExample": "I'm going to lay the book on the table."
+      },
+      {
+        "word": "lie",
+        "usage": "Verb (intransitive)",
+        "detail": "To recline or rest; does not take an object.",
+        "wrongExample": "I need to lay down for a while.",
+        "correctExample": "I need to lie down for a while."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "Please ______ the folder on my desk when you arrive.",
+      "correctOption": 0
+    }
+  },
+  {
+    "title": "Lead vs. Led",
+    "description": "One is present tense (or a metal), the other is the past tense of 'lead'.",
+    "words": [
+      {
+        "word": "lead",
+        "usage": "Verb (present)/Noun",
+        "detail": "To guide, or a type of heavy metal.",
+        "wrongExample": "She led the team to victory last year, and she will led again.",
+        "correctExample": "She will lead the team to victory this year."
+      },
+      {
+        "word": "led",
+        "usage": "Verb (past tense)",
+        "detail": "The past tense of 'to lead'.",
+        "wrongExample": "She lead the team to victory last year.",
+        "correctExample": "She led the team to victory last year."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "Yesterday, the coach ______ the players through a tough drill.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Loath vs. Loathe",
+    "description": "One is an adjective meaning reluctant, the other is a verb meaning to hate.",
+    "words": [
+      {
+        "word": "loath",
+        "usage": "Adjective",
+        "detail": "Reluctant or unwilling to do something.",
+        "wrongExample": "I loathe to admit I was wrong.",
+        "correctExample": "I am loath to admit I was wrong."
+      },
+      {
+        "word": "loathe",
+        "usage": "Verb",
+        "detail": "To feel intense dislike or hatred toward something.",
+        "wrongExample": "I loath doing household chores.",
+        "correctExample": "I loathe doing household chores."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "She has always ______ waking up early on weekends.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Passed vs. Past",
+    "description": "One is the past tense of 'pass', the other refers to time before now.",
+    "words": [
+      {
+        "word": "passed",
+        "usage": "Verb (past tense)",
+        "detail": "The past tense of 'to pass'.",
+        "wrongExample": "We drove past the exam with ease.",
+        "correctExample": "She passed the exam with ease."
+      },
+      {
+        "word": "past",
+        "usage": "Noun/Preposition",
+        "detail": "A period of time before the present, or beyond a point.",
+        "wrongExample": "We drove passed the old bridge.",
+        "correctExample": "We drove past the old bridge."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "He ______ the ball to his teammate at the last second.",
+      "correctOption": 0
+    }
+  },
+  {
+    "title": "Personal vs. Personnel",
+    "description": "One relates to an individual, the other refers to a group of employees.",
+    "words": [
+      {
+        "word": "personal",
+        "usage": "Adjective",
+        "detail": "Relating to or belonging to a particular individual.",
+        "wrongExample": "The personnel matter is none of your business.",
+        "correctExample": "That's a personal matter, please respect my privacy."
+      },
+      {
+        "word": "personnel",
+        "usage": "Noun",
+        "detail": "The people employed in an organization.",
+        "wrongExample": "Please keep this personal information confidential, said the manager to all personal.",
+        "correctExample": "All personnel must attend the safety training."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "The company hired new ______ for the summer season.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Precede vs. Proceed",
+    "description": "One means to come before, the other means to continue or move forward.",
+    "words": [
+      {
+        "word": "precede",
+        "usage": "Verb",
+        "detail": "To come before something in time or order.",
+        "wrongExample": "Please proceed the main course with a salad.",
+        "correctExample": "A short introduction will precede the main speech."
+      },
+      {
+        "word": "proceed",
+        "usage": "Verb",
+        "detail": "To continue on or move forward with an action.",
+        "wrongExample": "You may precede to the next station.",
+        "correctExample": "You may proceed to the next station."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "After the break, we will ______ with the second half of the meeting.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Sole vs. Soul",
+    "description": "One refers to the bottom of a foot/shoe (or 'only'), the other refers to the spirit.",
+    "words": [
+      {
+        "word": "sole",
+        "usage": "Adjective/Noun",
+        "detail": "Only one, or the bottom part of a foot or shoe.",
+        "wrongExample": "She poured her sole into the painting.",
+        "correctExample": "He was the sole survivor of the crash."
+      },
+      {
+        "word": "soul",
+        "usage": "Noun",
+        "detail": "The spiritual or emotional part of a person.",
+        "wrongExample": "The soul of my shoe wore out.",
+        "correctExample": "She poured her soul into the painting."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "Music has always touched her ______ deeply.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Straight vs. Strait",
+    "description": "One means not curved, the other refers to a narrow passage of water.",
+    "words": [
+      {
+        "word": "straight",
+        "usage": "Adjective/Adverb",
+        "detail": "Without a curve or bend; direct.",
+        "wrongExample": "The ship sailed through the strait line.",
+        "correctExample": "Draw a straight line across the page."
+      },
+      {
+        "word": "strait",
+        "usage": "Noun",
+        "detail": "A narrow channel of water connecting two seas.",
+        "wrongExample": "The ship sailed through the straight between the islands.",
+        "correctExample": "The ship sailed through the strait between the islands."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "The captain steered the boat carefully through the narrow ______.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Suite vs. Sweet",
+    "description": "One refers to a set of rooms or items, the other describes a pleasant taste.",
+    "words": [
+      {
+        "word": "suite",
+        "usage": "Noun",
+        "detail": "A set of connected rooms, or a matching set of furniture.",
+        "wrongExample": "The hotel sweet had a beautiful view.",
+        "correctExample": "The hotel suite had a beautiful view."
+      },
+      {
+        "word": "sweet",
+        "usage": "Adjective",
+        "detail": "Having a pleasant, sugary taste; also kind or pleasing.",
+        "wrongExample": "The cake tasted very suite.",
+        "correctExample": "The cake tasted very sweet."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "We booked the honeymoon ______ for our anniversary.",
+      "correctOption": 0
+    }
+  },
+  {
+    "title": "Through vs. Thorough",
+    "description": "One indicates movement or completion, the other means detailed and complete.",
+    "words": [
+      {
+        "word": "through",
+        "usage": "Preposition",
+        "detail": "Moving in one side and out the other, or finished.",
+        "wrongExample": "She did a thorough the tunnel walk.",
+        "correctExample": "The train went through the tunnel."
+      },
+      {
+        "word": "thorough",
+        "usage": "Adjective",
+        "detail": "Complete, with attention to every detail.",
+        "wrongExample": "She did a through review of the report.",
+        "correctExample": "She did a thorough review of the report."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "The inspector performed a ______ check of the entire building.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Vain vs. Vein",
+    "description": "One describes excessive pride, the other is a blood vessel.",
+    "words": [
+      {
+        "word": "vain",
+        "usage": "Adjective",
+        "detail": "Having excessive pride in one's appearance or achievements.",
+        "wrongExample": "The doctor checked her vain for the injection.",
+        "correctExample": "He was too vain to admit his mistake."
+      },
+      {
+        "word": "vein",
+        "usage": "Noun",
+        "detail": "A blood vessel that carries blood toward the heart.",
+        "wrongExample": "He was too vein to admit his mistake.",
+        "correctExample": "The doctor checked her vein for the injection."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "The nurse carefully located a ______ to draw blood.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Waist vs. Waste",
+    "description": "One is part of the body, the other means to use carelessly or leftover material.",
+    "words": [
+      {
+        "word": "waist",
+        "usage": "Noun",
+        "detail": "The middle part of the body, between the ribs and hips.",
+        "wrongExample": "Please don't waist your time on this.",
+        "correctExample": "She tied the belt around her waist."
+      },
+      {
+        "word": "waste",
+        "usage": "Noun/Verb",
+        "detail": "To use carelessly, or unwanted material.",
+        "wrongExample": "She tied the belt around her waste.",
+        "correctExample": "Please don't waste your time on this."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "It would be a ______ of money to buy that now.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Wander vs. Wonder",
+    "description": "One means to walk aimlessly, the other means to feel curious.",
+    "words": [
+      {
+        "word": "wander",
+        "usage": "Verb",
+        "detail": "To walk around without a specific destination.",
+        "wrongExample": "I often wonder through the old town.",
+        "correctExample": "I often wander through the old town."
+      },
+      {
+        "word": "wonder",
+        "usage": "Verb/Noun",
+        "detail": "To feel curious or amazed about something.",
+        "wrongExample": "I wander what the future holds.",
+        "correctExample": "I wonder what the future holds."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "As a child, she loved to ______ through the forest.",
+      "correctOption": 0
+    }
+  },
+  {
+    "title": "Weak vs. Week",
+    "description": "One describes a lack of strength, the other is a period of seven days.",
+    "words": [
+      {
+        "word": "weak",
+        "usage": "Adjective",
+        "detail": "Lacking strength, power, or energy.",
+        "wrongExample": "I felt so week after the flu.",
+        "correctExample": "I felt so weak after the flu."
+      },
+      {
+        "word": "week",
+        "usage": "Noun",
+        "detail": "A period of seven days.",
+        "wrongExample": "See you next weak!",
+        "correctExample": "See you next week!"
+      }
+    ],
+    "grammarQuestions": {
+      "question": "He felt ______ and tired after donating blood.",
+      "correctOption": 0
+    }
+  },
+  {
+    "title": "Which vs. Witch",
+    "description": "One is used to ask about a choice, the other refers to a sorceress.",
+    "words": [
+      {
+        "word": "which",
+        "usage": "Pronoun/Determiner",
+        "detail": "Used to ask about a choice among options.",
+        "wrongExample": "The witch one do you prefer?",
+        "correctExample": "Which one do you prefer?"
+      },
+      {
+        "word": "witch",
+        "usage": "Noun",
+        "detail": "A woman believed to practice magic, often in folklore.",
+        "wrongExample": "The which flew on her broomstick.",
+        "correctExample": "The witch flew on her broomstick."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "______ movie would you like to watch tonight?",
+      "correctOption": 0
+    }
+  },
+  {
+    "title": "Assure vs. Ensure vs. Insure",
+    "description": "Three similar words: to comfort, to guarantee, and to protect financially.",
+    "words": [
+      {
+        "word": "assure",
+        "usage": "Verb",
+        "detail": "To tell someone confidently to remove doubt.",
+        "wrongExample": "Please ensure me everything will be fine.",
+        "correctExample": "Let me assure you that everything will be fine."
+      },
+      {
+        "word": "ensure",
+        "usage": "Verb",
+        "detail": "To make certain that something happens.",
+        "wrongExample": "Please insure that the doors are locked.",
+        "correctExample": "Please ensure that the doors are locked."
+      },
+      {
+        "word": "insure",
+        "usage": "Verb",
+        "detail": "To arrange for financial compensation in case of loss or damage.",
+        "wrongExample": "We need to assure the car before driving it.",
+        "correctExample": "We need to insure the car before driving it."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "The agent helped us ______ our new home against fire damage.",
+      "correctOption": 2
+    }
+  },
+  {
+    "title": "Adverse vs. Averse",
+    "description": "One describes harmful conditions, the other describes personal reluctance.",
+    "words": [
+      {
+        "word": "adverse",
+        "usage": "Adjective",
+        "detail": "Harmful or unfavorable; describes conditions or effects.",
+        "wrongExample": "She is averse weather delayed the flight.",
+        "correctExample": "The adverse weather delayed the flight."
+      },
+      {
+        "word": "averse",
+        "usage": "Adjective",
+        "detail": "Having a strong feeling of dislike or opposition.",
+        "wrongExample": "He is adverse to taking risks.",
+        "correctExample": "He is averse to taking risks."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "Many patients experienced ______ reactions to the new medication.",
+      "correctOption": 0
+    }
+  },
+  {
+    "title": "Continual vs. Continuous",
+    "description": "One means frequently repeated, the other means without any interruption.",
+    "words": [
+      {
+        "word": "continual",
+        "usage": "Adjective",
+        "detail": "Happening frequently, often with breaks in between.",
+        "wrongExample": "The continuous interruptions made it hard to focus, he said continually.",
+        "correctExample": "The continual interruptions made it hard to focus."
+      },
+      {
+        "word": "continuous",
+        "usage": "Adjective",
+        "detail": "Occurring without any pause or break.",
+        "wrongExample": "We heard a continual humming sound all night.",
+        "correctExample": "We heard a continuous humming sound all night."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "The factory operates on a ______ basis, twenty-four hours a day.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Disinterested vs. Uninterested",
+    "description": "One means impartial, the other means simply not interested.",
+    "words": [
+      {
+        "word": "disinterested",
+        "usage": "Adjective",
+        "detail": "Impartial and unbiased; having no personal stake.",
+        "wrongExample": "He seemed uninterested judge listened to both sides fairly.",
+        "correctExample": "The disinterested judge listened to both sides fairly."
+      },
+      {
+        "word": "uninterested",
+        "usage": "Adjective",
+        "detail": "Not interested in or caring about something.",
+        "wrongExample": "He seemed disinterested in the movie and fell asleep.",
+        "correctExample": "He seemed uninterested in the movie and fell asleep."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "We need a ______ third party to mediate the dispute fairly.",
+      "correctOption": 0
+    }
+  },
+  {
+    "title": "Historic vs. Historical",
+    "description": "One means significant in history, the other simply relates to the past.",
+    "words": [
+      {
+        "word": "historic",
+        "usage": "Adjective",
+        "detail": "Famous or important in history.",
+        "wrongExample": "It was a historical moment when they signed the treaty.",
+        "correctExample": "It was a historic moment when they signed the treaty."
+      },
+      {
+        "word": "historical",
+        "usage": "Adjective",
+        "detail": "Relating to history or the past in general.",
+        "wrongExample": "The museum has a historic collection of old documents.",
+        "correctExample": "The museum has a historical collection of old documents."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "The election marked a truly ______ day for the nation.",
+      "correctOption": 0
+    }
+  },
+  {
+    "title": "Nauseous vs. Nauseated",
+    "description": "One traditionally describes something that causes sickness, the other describes feeling sick.",
+    "words": [
+      {
+        "word": "nauseous",
+        "usage": "Adjective",
+        "detail": "Traditionally describes something that causes nausea.",
+        "wrongExample": "I feel nauseous after the smell.",
+        "correctExample": "The nauseous fumes filled the room."
+      },
+      {
+        "word": "nauseated",
+        "usage": "Adjective",
+        "detail": "Describes the feeling of being sick to one's stomach.",
+        "wrongExample": "The nauseated fumes filled the room.",
+        "correctExample": "I felt nauseated after the long car ride."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "After the boat ride, she felt completely ______.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Bring vs. Take",
+    "description": "One means movement toward the speaker, the other means movement away.",
+    "words": [
+      {
+        "word": "bring",
+        "usage": "Verb",
+        "detail": "To carry something toward the speaker or a shared location.",
+        "wrongExample": "Take me an umbrella when you come over.",
+        "correctExample": "Please bring me an umbrella when you come over."
+      },
+      {
+        "word": "take",
+        "usage": "Verb",
+        "detail": "To carry something away from the speaker's current location.",
+        "wrongExample": "Bring these documents to the office when you leave.",
+        "correctExample": "Please take these documents to the office when you leave."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "Don't forget to ______ your laptop to the meeting tomorrow.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Borrow vs. Lend",
+    "description": "One means to receive temporarily, the other means to give temporarily.",
+    "words": [
+      {
+        "word": "borrow",
+        "usage": "Verb",
+        "detail": "To take and use something temporarily, intending to return it.",
+        "wrongExample": "Can you lend your pen from me?",
+        "correctExample": "Can I borrow your pen for a moment?"
+      },
+      {
+        "word": "lend",
+        "usage": "Verb",
+        "detail": "To give something temporarily, expecting it back.",
+        "wrongExample": "Can I borrow you some money?",
+        "correctExample": "Can you lend me some money?"
+      }
+    ],
+    "grammarQuestions": {
+      "question": "Could you ______ me your notes from yesterday's class?",
+      "correctOption": 0
+    }
+  },
+  {
+    "title": "Say vs. Tell",
+    "description": "One usually doesn't take a personal object, the other requires one.",
+    "words": [
+      {
+        "word": "say",
+        "usage": "Verb",
+        "detail": "To speak words; usually not followed directly by a person.",
+        "wrongExample": "She told that she was tired.",
+        "correctExample": "She said that she was tired."
+      },
+      {
+        "word": "tell",
+        "usage": "Verb",
+        "detail": "To inform someone; usually followed by a person as the object.",
+        "wrongExample": "She said me that she was tired.",
+        "correctExample": "She told me that she was tired."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "He didn't ______ me the whole story yesterday.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Good vs. Well",
+    "description": "Good describes a noun, well usually describes an action or health.",
+    "words": [
+      {
+        "word": "good",
+        "usage": "Adjective",
+        "detail": "Describes a noun; used after linking verbs like 'is' or 'looks'.",
+        "wrongExample": "She sings very good.",
+        "correctExample": "She is a good singer."
+      },
+      {
+        "word": "well",
+        "usage": "Adverb",
+        "detail": "Describes how an action is performed, or refers to health.",
+        "wrongExample": "She is a well singer.",
+        "correctExample": "She sings very well."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "He did really ______ on his final exam.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Amount vs. Number",
+    "description": "Amount is for uncountable nouns, number is for countable ones.",
+    "words": [
+      {
+        "word": "amount",
+        "usage": "Noun",
+        "detail": "Used with uncountable nouns, like quantities of something.",
+        "wrongExample": "A large number of water was spilled.",
+        "correctExample": "A large amount of water was spilled."
+      },
+      {
+        "word": "number",
+        "usage": "Noun",
+        "detail": "Used with countable nouns, like items you can count.",
+        "wrongExample": "A large amount of guests attended.",
+        "correctExample": "A large number of guests attended."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "A surprising ______ of students passed the exam this year.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Beside vs. Besides",
+    "description": "One means next to, the other means in addition to.",
+    "words": [
+      {
+        "word": "beside",
+        "usage": "Preposition",
+        "detail": "Next to or at the side of something.",
+        "wrongExample": "Besides the river, there is a nice path.",
+        "correctExample": "Beside the river, there is a nice path."
+      },
+      {
+        "word": "besides",
+        "usage": "Adverb/Preposition",
+        "detail": "In addition to, or apart from.",
+        "wrongExample": "Beside pizza, what else would you like?",
+        "correctExample": "Besides pizza, what else would you like?"
+      }
+    ],
+    "grammarQuestions": {
+      "question": "______ studying, she also works part-time on weekends.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Between vs. Among",
+    "description": "Between is for two things, among is for more than two.",
+    "words": [
+      {
+        "word": "between",
+        "usage": "Preposition",
+        "detail": "Used when referring to exactly two people or things.",
+        "wrongExample": "The prize was divided among the two winners.",
+        "correctExample": "The prize was divided between the two winners."
+      },
+      {
+        "word": "among",
+        "usage": "Preposition",
+        "detail": "Used when referring to more than two people or things.",
+        "wrongExample": "The prize was divided between the five winners.",
+        "correctExample": "The prize was divided among the five winners."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "The inheritance was split ______ the three siblings.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Can vs. May",
+    "description": "Can refers to ability, may refers to permission (in formal usage).",
+    "words": [
+      {
+        "word": "can",
+        "usage": "Modal Verb",
+        "detail": "Refers to ability or possibility.",
+        "wrongExample": "May you lift that heavy box?",
+        "correctExample": "Can you lift that heavy box?"
+      },
+      {
+        "word": "may",
+        "usage": "Modal Verb",
+        "detail": "Refers to permission, especially in formal contexts.",
+        "wrongExample": "Can I leave early today, please?",
+        "correctExample": "May I leave early today, please?"
+      }
+    ],
+    "grammarQuestions": {
+      "question": "______ I ask you a personal question?",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Compose vs. Comprise",
+    "description": "One means to make up a whole, the other means to contain parts.",
+    "words": [
+      {
+        "word": "compose",
+        "usage": "Verb",
+        "detail": "To make up or form the parts of a whole.",
+        "wrongExample": "The committee comprises of ten members.",
+        "correctExample": "Ten members compose the committee."
+      },
+      {
+        "word": "comprise",
+        "usage": "Verb",
+        "detail": "To consist of or be made up of parts.",
+        "wrongExample": "Ten members compose of the committee.",
+        "correctExample": "The committee comprises ten members."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "The orchestra ______ musicians from twenty different countries.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "If vs. Whether",
+    "description": "If introduces a condition, whether introduces a choice between alternatives.",
+    "words": [
+      {
+        "word": "if",
+        "usage": "Conjunction",
+        "detail": "Introduces a condition.",
+        "wrongExample": "I don't know whether it rains, we'll stay inside.",
+        "correctExample": "If it rains, we'll stay inside."
+      },
+      {
+        "word": "whether",
+        "usage": "Conjunction",
+        "detail": "Introduces a choice between two or more alternatives.",
+        "wrongExample": "I don't know if to go or stay.",
+        "correctExample": "I don't know whether to go or stay."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "She asked ______ or not I wanted to join the trip.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Maybe vs. May Be",
+    "description": "One is an adverb meaning perhaps, the other is a verb phrase.",
+    "words": [
+      {
+        "word": "maybe",
+        "usage": "Adverb",
+        "detail": "Means 'perhaps' or 'possibly'.",
+        "wrongExample": "He may be late, or he may be on time.",
+        "correctExample": "Maybe he will arrive on time."
+      },
+      {
+        "word": "may be",
+        "usage": "Verb Phrase",
+        "detail": "Combines the modal 'may' with the verb 'be'.",
+        "wrongExample": "Maybe the answer, but I'm not certain.",
+        "correctExample": "That may be the answer, but I'm not certain."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "There ______ a simpler solution to this problem.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "A Lot vs. Alot",
+    "description": "The correct spelling is always two separate words.",
+    "words": [
+      {
+        "word": "a lot",
+        "usage": "Quantifier",
+        "detail": "Correct spelling meaning 'a large amount'; always two words.",
+        "wrongExample": "I have alot of homework tonight.",
+        "correctExample": "I have a lot of homework tonight."
+      },
+      {
+        "word": "alot",
+        "usage": "Incorrect Spelling",
+        "detail": "A common misspelling of 'a lot'; not a real word.",
+        "wrongExample": "There is a lot of confusion around alot as a word.",
+        "correctExample": "Remember that 'alot' is never correct; always write 'a lot'."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "She has ______ of experience in graphic design.",
+      "correctOption": 0
+    }
+  },
+  {
+    "title": "Everyday vs. Every Day",
+    "description": "One is an adjective, the other is an adverbial phrase meaning 'each day'.",
+    "words": [
+      {
+        "word": "everyday",
+        "usage": "Adjective",
+        "detail": "Describes something ordinary or used daily; comes before a noun.",
+        "wrongExample": "I go for a walk every day routine.",
+        "correctExample": "Wearing sneakers is part of my everyday routine."
+      },
+      {
+        "word": "every day",
+        "usage": "Adverbial Phrase",
+        "detail": "Means 'each day'; used to describe frequency.",
+        "wrongExample": "I go for a walk everyday.",
+        "correctExample": "I go for a walk every day."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "He practices the piano ______ after school.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Anyone vs. Any One",
+    "description": "Anyone means any person; any one emphasizes a single item from a group.",
+    "words": [
+      {
+        "word": "anyone",
+        "usage": "Pronoun",
+        "detail": "Refers to any person, unspecified.",
+        "wrongExample": "Any one can join the club if they'd like.",
+        "correctExample": "Anyone can join the club if they'd like."
+      },
+      {
+        "word": "any one",
+        "usage": "Determiner + Pronoun",
+        "detail": "Emphasizes a single person or item from a specific group.",
+        "wrongExample": "Anyone of these books would make a great gift.",
+        "correctExample": "Any one of these books would make a great gift."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "______ of the three options would work fine for me.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Awhile vs. A While",
+    "description": "Awhile is an adverb, a while is a noun phrase usually following a preposition.",
+    "words": [
+      {
+        "word": "awhile",
+        "usage": "Adverb",
+        "detail": "Means 'for a short time'; not preceded by a preposition.",
+        "wrongExample": "Let's rest for awhile before continuing.",
+        "correctExample": "Let's rest awhile before continuing."
+      },
+      {
+        "word": "a while",
+        "usage": "Noun Phrase",
+        "detail": "Refers to a period of time; often follows 'for' or 'in'.",
+        "wrongExample": "Let's rest for while before continuing.",
+        "correctExample": "Let's rest for a while before continuing."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "We waited ______ before the doctor finally called us in.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Already vs. All Ready",
+    "description": "Already refers to time, all ready means completely prepared.",
+    "words": [
+      {
+        "word": "already",
+        "usage": "Adverb",
+        "detail": "By this time; refers to something that has happened.",
+        "wrongExample": "We are all ready finished with dinner.",
+        "correctExample": "We have already finished with dinner."
+      },
+      {
+        "word": "all ready",
+        "usage": "Adjective Phrase",
+        "detail": "Means completely prepared for something.",
+        "wrongExample": "We are already for the trip tomorrow.",
+        "correctExample": "We are all ready for the trip tomorrow."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "The guests are ______ to begin the ceremony.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Altogether vs. All Together",
+    "description": "Altogether means completely, all together means everyone/everything in one place.",
+    "words": [
+      {
+        "word": "altogether",
+        "usage": "Adverb",
+        "detail": "Means 'completely' or 'in total'.",
+        "wrongExample": "The plan was all together different from what we expected.",
+        "correctExample": "The plan was altogether different from what we expected."
+      },
+      {
+        "word": "all together",
+        "usage": "Adverb Phrase",
+        "detail": "Means everyone or everything gathered in one place.",
+        "wrongExample": "Let's stay altogether so we don't get separated.",
+        "correctExample": "Let's stay all together so we don't get separated."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "The cost of the trip came to $500 ______.",
+      "correctOption": 0
+    }
+  },
+  {
+    "title": "Nobody vs. No Body",
+    "description": "Nobody means no person, no body refers literally to an absence of a physical body.",
+    "words": [
+      {
+        "word": "nobody",
+        "usage": "Pronoun",
+        "detail": "Means 'no person' or 'not anyone'.",
+        "wrongExample": "There was no body at the meeting.",
+        "correctExample": "There was nobody at the meeting."
+      },
+      {
+        "word": "no body",
+        "usage": "Noun Phrase",
+        "detail": "Refers literally to the absence of a physical body.",
+        "wrongExample": "The detectives found nobody at the crime scene, just evidence.",
+        "correctExample": "The detectives found no body at the crime scene, just evidence."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "______ answered when I knocked on the door.",
+      "correctOption": 0
+    }
+  },
+  {
+    "title": "Sometime vs. Some Time",
+    "description": "Sometime means at an unspecified point, some time refers to a duration.",
+    "words": [
+      {
+        "word": "sometime",
+        "usage": "Adverb",
+        "detail": "At an unspecified or unknown point in time.",
+        "wrongExample": "I need some time to finish this, maybe next week.",
+        "correctExample": "Let's meet up sometime next week."
+      },
+      {
+        "word": "some time",
+        "usage": "Noun Phrase",
+        "detail": "Refers to an amount or duration of time.",
+        "wrongExample": "I need sometime to finish this project.",
+        "correctExample": "I need some time to finish this project."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "It will take ______ before the results are ready.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Toward vs. Towards",
+    "description": "Both are correct; 'toward' is more common in American English, 'towards' in British English.",
+    "words": [
+      {
+        "word": "toward",
+        "usage": "Preposition",
+        "detail": "American English preference; means 'in the direction of'.",
+        "wrongExample": "She walked towards, the American editor preferred toward.",
+        "correctExample": "She walked toward the front of the classroom."
+      },
+      {
+        "word": "towards",
+        "usage": "Preposition",
+        "detail": "British English preference; means 'in the direction of'.",
+        "wrongExample": "She walked toward the front, said the British author, who prefers towards.",
+        "correctExample": "She walked towards the front of the classroom."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "He slowly made his way ______ the exit.",
+      "correctOption": 0
+    }
+  },
+  {
+    "title": "Whom vs. Who",
+    "description": "Who is a subject pronoun, whom is an object pronoun.",
+    "words": [
+      {
+        "word": "who",
+        "usage": "Subject Pronoun",
+        "detail": "Used when referring to the subject of a clause.",
+        "wrongExample": "Whom is calling, please?",
+        "correctExample": "Who is calling, please?"
+      },
+      {
+        "word": "whom",
+        "usage": "Object Pronoun",
+        "detail": "Used when referring to the object of a verb or preposition.",
+        "wrongExample": "Who did you give the letter to?",
+        "correctExample": "To whom did you give the letter?"
+      }
+    ],
+    "grammarQuestions": {
+      "question": "______ should I address this letter to?",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Each Other vs. One Another",
+    "description": "Traditionally, each other is used for two, one another for more than two.",
+    "words": [
+      {
+        "word": "each other",
+        "usage": "Reciprocal Pronoun",
+        "detail": "Traditionally used when referring to exactly two people.",
+        "wrongExample": "The five friends helped each other during the trip works fine informally.",
+        "correctExample": "The two partners supported each other through the project."
+      },
+      {
+        "word": "one another",
+        "usage": "Reciprocal Pronoun",
+        "detail": "Traditionally used when referring to more than two people.",
+        "wrongExample": "The two partners supported one another, though today either phrase is common.",
+        "correctExample": "The five friends helped one another during the trip."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "All the students in the group encouraged ______ before the exam.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Could Have vs. Could Of",
+    "description": "The correct form uses 'have'; 'could of' is a common misspelling based on pronunciation.",
+    "words": [
+      {
+        "word": "could have",
+        "usage": "Modal Verb Phrase",
+        "detail": "The grammatically correct form, often contracted to 'could've'.",
+        "wrongExample": "I could of helped you if you had asked.",
+        "correctExample": "I could have helped you if you had asked."
+      },
+      {
+        "word": "could of",
+        "usage": "Incorrect Form",
+        "detail": "A common error caused by the way 'could've' sounds when spoken.",
+        "wrongExample": "Remember that 'could have' is correct, not 'could of'.",
+        "correctExample": "Never write 'could of' in formal writing; use 'could have' instead."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "She ______ finished the project earlier if she'd started sooner.",
+      "correctOption": 0
+    }
+  },
+  {
+    "title": "I vs. Me",
+    "description": "I is a subject pronoun, me is an object pronoun.",
+    "words": [
+      {
+        "word": "i",
+        "usage": "Subject Pronoun",
+        "detail": "Used when the pronoun is the subject of the sentence.",
+        "wrongExample": "Me and my brother went to the store.",
+        "correctExample": "My brother and I went to the store."
+      },
+      {
+        "word": "me",
+        "usage": "Object Pronoun",
+        "detail": "Used when the pronoun is the object of a verb or preposition.",
+        "wrongExample": "Please give the book to my sister and I.",
+        "correctExample": "Please give the book to my sister and me."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "Just between you and ______, I think she's right.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Myself vs. Me",
+    "description": "Myself is reflexive and refers back to the subject; it shouldn't replace 'me' or 'I'.",
+    "words": [
+      {
+        "word": "myself",
+        "usage": "Reflexive Pronoun",
+        "detail": "Used when the subject and object of a sentence are the same person.",
+        "wrongExample": "Please contact John or myself with questions.",
+        "correctExample": "I taught myself how to play the guitar."
+      },
+      {
+        "word": "me",
+        "usage": "Object Pronoun",
+        "detail": "The correct choice for an object pronoun; do not replace with 'myself' unnecessarily.",
+        "wrongExample": "I hurt me while running yesterday.",
+        "correctExample": "I hurt myself while running yesterday."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "Please send the report to Sarah or ______.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Regardless vs. Irregardless",
+    "description": "Regardless is the standard word; irregardless is considered nonstandard.",
+    "words": [
+      {
+        "word": "regardless",
+        "usage": "Adverb",
+        "detail": "Means 'without regard to' or 'despite'; the standard, correct form.",
+        "wrongExample": "Irregardless of the weather, we're going hiking.",
+        "correctExample": "Regardless of the weather, we're going hiking."
+      },
+      {
+        "word": "irregardless",
+        "usage": "Nonstandard Word",
+        "detail": "A nonstandard variant often used in place of 'regardless'; best avoided in formal writing.",
+        "wrongExample": "Please use regardless instead of irregardless in your essay.",
+        "correctExample": "Avoid using 'irregardless'; standard English prefers 'regardless'."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "She decided to go through with the plan ______ of the risks.",
+      "correctOption": 0
+    }
+  },
+  {
+    "title": "Bad vs. Badly",
+    "description": "Bad is an adjective describing a noun, badly is an adverb describing a verb.",
+    "words": [
+      {
+        "word": "bad",
+        "usage": "Adjective",
+        "detail": "Describes a noun or follows a linking verb like 'feel' or 'seem'.",
+        "wrongExample": "I feel badly about what happened.",
+        "correctExample": "I feel bad about what happened."
+      },
+      {
+        "word": "badly",
+        "usage": "Adverb",
+        "detail": "Describes how an action is performed.",
+        "wrongExample": "He played bad in the final match.",
+        "correctExample": "He played badly in the final match."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "The team performed really ______ during the second half.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Real vs. Really",
+    "description": "Real is an adjective describing a noun, really is an adverb describing a verb or adjective.",
+    "words": [
+      {
+        "word": "real",
+        "usage": "Adjective",
+        "detail": "Describes a noun; means genuine or actual.",
+        "wrongExample": "She was really happy about the real news.",
+        "correctExample": "That was a real diamond, not a fake one."
+      },
+      {
+        "word": "really",
+        "usage": "Adverb",
+        "detail": "Modifies a verb, adjective, or another adverb; means 'truly' or 'very'.",
+        "wrongExample": "That was a real good movie, actually.",
+        "correctExample": "That was a really good movie, actually."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "I am ______ excited about the upcoming trip.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Bought vs. Brought",
+    "description": "Bought is the past tense of 'buy', brought is the past tense of 'bring'.",
+    "words": [
+      {
+        "word": "bought",
+        "usage": "Verb (past tense)",
+        "detail": "The past tense of 'to buy', meaning to purchase.",
+        "wrongExample": "She brought a new car last week.",
+        "correctExample": "She bought a new car last week."
+      },
+      {
+        "word": "brought",
+        "usage": "Verb (past tense)",
+        "detail": "The past tense of 'to bring', meaning to carry something along.",
+        "wrongExample": "He bought his dog to the picnic.",
+        "correctExample": "He brought his dog to the picnic."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "He ______ his notes to class so he could study during lunch.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Quiet vs. Quite",
+    "description": "Quiet means silent, quite means to a certain extent or completely.",
+    "words": [
+      {
+        "word": "quiet",
+        "usage": "Adjective",
+        "detail": "Making little or no noise; calm and silent.",
+        "wrongExample": "It was quite in the library.",
+        "correctExample": "It was quiet in the library."
+      },
+      {
+        "word": "quite",
+        "usage": "Adverb",
+        "detail": "Means 'to a certain degree' or 'completely'.",
+        "wrongExample": "She was quiet tired after the long hike.",
+        "correctExample": "She was quite tired after the long hike."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "The house was ______ eerie at night.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Costume vs. Custom",
+    "description": "Costume refers to clothing worn for a special occasion, custom refers to a tradition.",
+    "words": [
+      {
+        "word": "costume",
+        "usage": "Noun",
+        "detail": "An outfit worn for a special occasion, performance, or disguise.",
+        "wrongExample": "It's a local custom to wear masks for the play.",
+        "correctExample": "She wore a fantastic costume to the Halloween party."
+      },
+      {
+        "word": "custom",
+        "usage": "Noun",
+        "detail": "A traditional practice or way of doing something.",
+        "wrongExample": "It is a common costume in that region to greet elders first.",
+        "correctExample": "It is a common custom in that region to greet elders first."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "Removing your shoes indoors is a ______ in many cultures.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Adapt vs. Adopt",
+    "description": "Adapt means to adjust, adopt means to take on or take in.",
+    "words": [
+      {
+        "word": "adapt",
+        "usage": "Verb",
+        "detail": "To adjust or become suited to new conditions.",
+        "wrongExample": "They decided to adopt their plans to the new schedule.",
+        "correctExample": "They decided to adapt their plans to the new schedule."
+      },
+      {
+        "word": "adopt",
+        "usage": "Verb",
+        "detail": "To take on, accept, or legally take in as one's own.",
+        "wrongExample": "The family plans to adapt a rescue dog next month.",
+        "correctExample": "The family plans to adopt a rescue dog next month."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "The company had to ______ quickly to the changing market.",
+      "correctOption": 0
+    }
+  },
+  {
+    "title": "Device vs. Devise",
+    "description": "Device is a noun, devise is a verb meaning to plan or invent.",
+    "words": [
+      {
+        "word": "device",
+        "usage": "Noun",
+        "detail": "A tool or piece of equipment made for a particular purpose.",
+        "wrongExample": "We need to devise a new charger for this phone.",
+        "correctExample": "We need to buy a new charging device for this phone."
+      },
+      {
+        "word": "devise",
+        "usage": "Verb",
+        "detail": "To plan or invent something through careful thought.",
+        "wrongExample": "They need to device a new strategy for the game.",
+        "correctExample": "They need to devise a new strategy for the game."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "The engineers had to ______ a clever solution to the problem.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Prophecy vs. Prophesy",
+    "description": "Prophecy is the noun, prophesy is the verb.",
+    "words": [
+      {
+        "word": "prophecy",
+        "usage": "Noun",
+        "detail": "A prediction, especially one made through divine inspiration.",
+        "wrongExample": "The wizard began to prophecy about the future.",
+        "correctExample": "The ancient prophecy foretold a great disaster."
+      },
+      {
+        "word": "prophesy",
+        "usage": "Verb",
+        "detail": "To predict or foretell something, often in a spiritual sense.",
+        "wrongExample": "The ancient prophesy foretold a great disaster.",
+        "correctExample": "The wizard began to prophesy about the future."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "The old seer would often ______ about coming storms.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Breath vs. Breathe",
+    "description": "Breath is a noun, breathe is the verb.",
+    "words": [
+      {
+        "word": "breath",
+        "usage": "Noun",
+        "detail": "The air taken into or let out of the lungs.",
+        "wrongExample": "Take a deep breathe before you dive.",
+        "correctExample": "Take a deep breath before you dive."
+      },
+      {
+        "word": "breathe",
+        "usage": "Verb",
+        "detail": "To take air into and expel it from the lungs.",
+        "wrongExample": "It's hard to breath in this thin mountain air.",
+        "correctExample": "It's hard to breathe in this thin mountain air."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "Remember to ______ slowly and stay calm during the exercise.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Cloth vs. Clothe",
+    "description": "Cloth is a noun referring to fabric, clothe is a verb meaning to dress someone.",
+    "words": [
+      {
+        "word": "cloth",
+        "usage": "Noun",
+        "detail": "A piece of woven or knitted fabric.",
+        "wrongExample": "She used a soft clothe to wipe the table.",
+        "correctExample": "She used a soft cloth to wipe the table."
+      },
+      {
+        "word": "clothe",
+        "usage": "Verb",
+        "detail": "To dress or provide clothing for someone.",
+        "wrongExample": "It's expensive to cloth a growing family.",
+        "correctExample": "It's expensive to clothe a growing family."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "Charities work hard to feed and ______ those in need.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Choose vs. Chose",
+    "description": "Choose is the present tense, chose is the past tense.",
+    "words": [
+      {
+        "word": "choose",
+        "usage": "Verb (present tense)",
+        "detail": "To select from a range of options, in the present.",
+        "wrongExample": "Yesterday, she choose the blue dress.",
+        "correctExample": "Today, she will choose the blue dress."
+      },
+      {
+        "word": "chose",
+        "usage": "Verb (past tense)",
+        "detail": "The past tense of 'to choose'.",
+        "wrongExample": "Tomorrow, she chose the blue dress.",
+        "correctExample": "Yesterday, she chose the blue dress."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "Last night, he ______ the chicken instead of the fish.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Except vs. Expect",
+    "description": "Except means excluding, expect means to anticipate something.",
+    "words": [
+      {
+        "word": "except",
+        "usage": "Preposition",
+        "detail": "Meaning 'excluding' or 'apart from'.",
+        "wrongExample": "I expect pizza, everyone likes salad.",
+        "correctExample": "Except for pizza, everyone likes salad."
+      },
+      {
+        "word": "expect",
+        "usage": "Verb",
+        "detail": "To anticipate or believe something will happen.",
+        "wrongExample": "I except you to arrive by noon.",
+        "correctExample": "I expect you to arrive by noon."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "We ______ the package to arrive sometime next week.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Moral vs. Morale",
+    "description": "Moral relates to right and wrong, morale refers to confidence or spirit.",
+    "words": [
+      {
+        "word": "moral",
+        "usage": "Adjective/Noun",
+        "detail": "Relating to principles of right and wrong, or a lesson.",
+        "wrongExample": "Team morale of the story is to be honest.",
+        "correctExample": "The moral of the story is to be honest."
+      },
+      {
+        "word": "morale",
+        "usage": "Noun",
+        "detail": "The confidence, enthusiasm, and discipline of a person or group.",
+        "wrongExample": "The moral of the team improved after the win.",
+        "correctExample": "The morale of the team improved after the win."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "The coach gave a speech to boost team ______.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Career vs. Careen",
+    "description": "Career refers to one's profession, careen means to swerve or lurch uncontrollably.",
+    "words": [
+      {
+        "word": "career",
+        "usage": "Noun",
+        "detail": "A person's course of professional life or occupation.",
+        "wrongExample": "The car began to career down the hill out of control.",
+        "correctExample": "She built a successful career in medicine."
+      },
+      {
+        "word": "careen",
+        "usage": "Verb",
+        "detail": "To move swiftly and uncontrollably in a swerving motion.",
+        "wrongExample": "She built a successful careen in medicine over the years.",
+        "correctExample": "The car began to careen down the hill out of control."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "The runaway cart began to ______ toward the busy street.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Conscious vs. Conscience",
+    "description": "Conscious means awake or aware, conscience refers to one's moral sense.",
+    "words": [
+      {
+        "word": "conscious",
+        "usage": "Adjective",
+        "detail": "Awake and aware of one's surroundings.",
+        "wrongExample": "Her conscience kept her awake during the surgery.",
+        "correctExample": "The patient remained conscious during the surgery."
+      },
+      {
+        "word": "conscience",
+        "usage": "Noun",
+        "detail": "An inner sense of right and wrong that guides behavior.",
+        "wrongExample": "His conscious told him to return the wallet.",
+        "correctExample": "His conscience told him to return the wallet."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "A guilty ______ kept him from sleeping that night.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Eminent vs. Imminent",
+    "description": "Eminent means famous or distinguished, imminent means about to happen.",
+    "words": [
+      {
+        "word": "eminent",
+        "usage": "Adjective",
+        "detail": "Famous and respected within a particular field.",
+        "wrongExample": "The storm is imminent professor gave a lecture.",
+        "correctExample": "The eminent professor gave a lecture on climate change."
+      },
+      {
+        "word": "imminent",
+        "usage": "Adjective",
+        "detail": "About to happen very soon.",
+        "wrongExample": "The eminent storm forced everyone indoors.",
+        "correctExample": "The imminent storm forced everyone indoors."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "Experts warned that a market crash seemed ______.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Formally vs. Formerly",
+    "description": "Formally means in a formal manner, formerly means at an earlier time.",
+    "words": [
+      {
+        "word": "formally",
+        "usage": "Adverb",
+        "detail": "In a formal or official manner.",
+        "wrongExample": "She was formerly introduced to the board of directors.",
+        "correctExample": "She was formally introduced to the board of directors."
+      },
+      {
+        "word": "formerly",
+        "usage": "Adverb",
+        "detail": "At an earlier time; previously.",
+        "wrongExample": "He was formally known as a professional athlete.",
+        "correctExample": "He was formerly known as a professional athlete."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "The building was ______ used as a train station.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Lightening vs. Lightning",
+    "description": "Lightening means becoming lighter, lightning is the electrical flash during a storm.",
+    "words": [
+      {
+        "word": "lightening",
+        "usage": "Verb (gerund)",
+        "detail": "The act of making something lighter in weight or color.",
+        "wrongExample": "A bolt of lightening struck the tree.",
+        "correctExample": "Lightening the load made the hike easier."
+      },
+      {
+        "word": "lightning",
+        "usage": "Noun",
+        "detail": "The flash of light produced by an electrical discharge during a storm.",
+        "wrongExample": "Lightning the mood, she told a joke.",
+        "correctExample": "A bolt of lightning struck the old oak tree."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "We saw a flash of ______ just before the thunder rolled in.",
+      "correctOption": 1
+    }
+  },
+  {
+    "title": "Simple vs. Simplistic",
+    "description": "Simple means easy or uncomplicated, simplistic means oversimplified in a negative way.",
+    "words": [
+      {
+        "word": "simple",
+        "usage": "Adjective",
+        "detail": "Easy to understand; not complicated.",
+        "wrongExample": "The solution was elegant but simplistic.",
+        "correctExample": "The solution was elegant and simple."
+      },
+      {
+        "word": "simplistic",
+        "usage": "Adjective",
+        "detail": "Treating a complex issue as if it were simpler than it really is.",
+        "wrongExample": "His explanation was clear and simplistic in a good way.",
+        "correctExample": "His explanation was overly simplistic and ignored key details."
+      }
+    ],
+    "grammarQuestions": {
+      "question": "Critics said the argument was ______ and ignored important nuances.",
+      "correctOption": 1
+    }
+  }
+]
