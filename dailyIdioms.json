@@ -2,17 +2,801 @@
   {
     "idiom": "Piece of cake",
     "meaning": "Something that is very easy to do.",
-    "origin": "The phrase is believed to have originated in the 1930s...",
-    "example": "The exam was a piece of cake.",
+    "origin": "The phrase is believed to have originated in the 1930s. It reflects the idea that eating a piece of cake is an effortless and enjoyable task compared to more strenuous activities.",
+    "example": "The exam was a piece of cake; I finished it in 20 minutes.",
     "source": "English Idiom",
-    "tip": "This idiom is informal bla bla..."
+    "tip": "Pro-tip: This idiom is informal. Use \"straightforward\" or \"effortless\" in formal business documents."
   },
   {
     "idiom": "Break the ice",
     "meaning": "To start a conversation in a social setting.",
-    "origin": "Originally referred to ships breaking ice...",
-    "example": "He told a joke to break the ice.",
+    "origin": "Originally referred to ships breaking ice to clear a path for others, symbolizing overcoming initial barriers.",
+    "example": "He told a joke to break the ice at the meeting.",
     "source": "English Idiom",
-    "tip": "Use 'initiate conversation' in formal writing."
+    "tip": "Pro-tip: This idiom is informal. Use \"initiate conversation\" or \"ease initial tension\" in formal business communication."
+  },
+  {
+    "idiom": "Hit the nail on the head",
+    "meaning": "To describe exactly what is causing a situation or problem.",
+    "origin": "Comes from carpentry, where striking a nail directly on its head is precise and effective.",
+    "example": "You hit the nail on the head when you said communication was the issue.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: This idiom is suitable for casual and professional settings. Use \"identify precisely\" in highly formal reports."
+  },
+  {
+    "idiom": "Under the weather",
+    "meaning": "Feeling slightly ill or unwell.",
+    "origin": "A nautical expression referring to sailors feeling sick during rough weather.",
+    "example": "I'm feeling a bit under the weather today.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: This idiom is informal. Use \"feeling unwell\" or \"experiencing mild illness\" in formal contexts."
+  },
+  {
+    "idiom": "Spill the beans",
+    "meaning": "To reveal a secret.",
+    "origin": "Possibly derived from ancient voting systems where spilling beans exposed confidential results.",
+    "example": "Come on, spill the beans! What happened at the party?",
+    "source": "English Idiom",
+    "tip": "Pro-tip: This idiom is informal. Use \"disclose confidential information\" in professional communication."
+  },
+  {
+    "idiom": "Once in a blue moon",
+    "meaning": "Something that happens very rarely.",
+    "origin": "A blue moon is an uncommon astronomical event, making it a symbol of rarity.",
+    "example": "We go out for dinner once in a blue moon these days.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: This idiom is informal. Use \"rarely\" or \"infrequently\" in formal writing."
+  },
+  {
+    "idiom": "The ball is in your court",
+    "meaning": "It is your turn to make a decision or take action.",
+    "origin": "Derived from tennis, where the player receiving the ball must respond.",
+    "example": "I've sent the proposal; now the ball is in your court.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: This idiom is acceptable in business conversations. Use \"the decision now rests with you\" in formal documents."
+  },
+  {
+    "idiom": "Burn the midnight oil",
+    "meaning": "To work or study late into the night.",
+    "origin": "Refers to the oil lamps people used before electricity while working after dark.",
+    "example": "She burned the midnight oil preparing for her final exams.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: This idiom is informal. Use \"worked late into the night\" in formal reports or academic writing."
+  },
+  {
+    "idiom": "A blessing in disguise",
+    "meaning": "Something that seems bad at first but turns out to be beneficial.",
+    "origin": "The phrase has been used since the 18th century to describe hidden advantages.",
+    "example": "Losing that job was a blessing in disguise because it led me to a better career.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: This idiom is informal. Use \"an unexpected benefit\" in formal or academic contexts."
+  },
+  {
+    "idiom": "Cost an arm and a leg",
+    "meaning": "To be extremely expensive.",
+    "origin": "The exact origin is uncertain, but it emphasizes a very high cost through exaggeration.",
+    "example": "That designer watch costs an arm and a leg.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: This idiom is informal. Use \"very expensive\" or \"high-cost\" in formal business documents."
+  },
+  {
+    "idiom": "Bite the bullet",
+    "meaning": "To force yourself to do something unpleasant or difficult.",
+    "origin": "Believed to come from soldiers biting on a bullet to cope with pain before anesthesia was available.",
+    "example": "I decided to bite the bullet and finally fix my car.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: This idiom is informal. Use \"proceed despite difficulty\" in formal writing."
+  },
+  {
+    "idiom": "Let the cat out of the bag",
+    "meaning": "To reveal a secret accidentally.",
+    "origin": "Possibly derived from market scams where a cat was substituted for a piglet in a bag.",
+    "example": "She let the cat out of the bag about the surprise party.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: This idiom is informal. Use \"inadvertently disclosed\" in professional writing."
+  },
+  {
+    "idiom": "Kill two birds with one stone",
+    "meaning": "To accomplish two things with a single action.",
+    "origin": "The phrase dates back to the 17th century, referring to efficient hunting.",
+    "example": "By walking to work, I kill two birds with one stone: exercise and commuting.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: This idiom is informal. Use \"achieve two objectives simultaneously\" in formal reports."
+  },
+  {
+    "idiom": "Cut corners",
+    "meaning": "To do something in the easiest or cheapest way, often sacrificing quality.",
+    "origin": "Refers to literally cutting across a corner instead of following the correct path, saving time or effort.",
+    "example": "The contractor cut corners on the renovation, and it shows.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: This idiom is informal. Use \"reduce standards to save cost or time\" in formal contexts."
+  },
+  {
+    "idiom": "Beat around the bush",
+    "meaning": "To avoid talking about something directly.",
+    "origin": "Originates from hunting, where beaters would strike bushes to flush out birds without approaching directly.",
+    "example": "Stop beating around the bush and tell me what happened.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: This idiom is informal. Use \"avoid the main point\" in formal writing."
+  },
+  {
+    "idiom": "Actions speak louder than words",
+    "meaning": "What people do is more important than what they say.",
+    "origin": "A proverb dating back centuries, emphasizing that deeds carry more weight than promises.",
+    "example": "He promised to help, but actions speak louder than words.",
+    "source": "English Proverb",
+    "tip": "Pro-tip: This is a proverb often used in both casual and formal motivational contexts."
+  },
+  {
+    "idiom": "Add insult to injury",
+    "meaning": "To make a bad situation worse.",
+    "origin": "Traces back to ancient fables where an injured party is further mocked.",
+    "example": "Losing my wallet was bad enough, but getting a parking ticket added insult to injury.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"exacerbate an already difficult situation\" in formal writing."
+  },
+  {
+    "idiom": "Back to the drawing board",
+    "meaning": "To start a task or project over because the previous attempt failed.",
+    "origin": "Popularized during WWII, referencing engineers redesigning failed aircraft.",
+    "example": "The prototype failed testing, so it's back to the drawing board.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"revisit the planning stage\" in formal reports."
+  },
+  {
+    "idiom": "Barking up the wrong tree",
+    "meaning": "To pursue a mistaken or misguided course of action.",
+    "origin": "Refers to hunting dogs mistakenly barking at the wrong tree where prey is not present.",
+    "example": "If you think I took your book, you're barking up the wrong tree.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"pursuing an incorrect assumption\" in professional communication."
+  },
+  {
+    "idiom": "Best of both worlds",
+    "meaning": "A situation where you can enjoy the benefits of two different opportunities.",
+    "origin": "First recorded in the 19th century, describing combined advantages.",
+    "example": "Working remotely gives her the best of both worlds: flexibility and income.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: This phrase is acceptable in both casual and formal contexts."
+  },
+  {
+    "idiom": "Better late than never",
+    "meaning": "It's better for something to happen late than not at all.",
+    "origin": "A proverb with roots in Geoffrey Chaucer's writings from the 14th century.",
+    "example": "He finally apologized after two years, but better late than never.",
+    "source": "English Proverb",
+    "tip": "Pro-tip: Common in both spoken and written English, formal or informal."
+  },
+  {
+    "idiom": "Bite off more than you can chew",
+    "meaning": "To take on a task that is too big or difficult to manage.",
+    "origin": "American in origin, referencing tobacco chewing where people would bite too large a piece.",
+    "example": "Taking on three projects at once, I bit off more than I could chew.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"overcommitted to a task\" in formal documents."
+  },
+  {
+    "idiom": "Blessing in the sky",
+    "meaning": "An unexpected piece of good fortune.",
+    "origin": "A variant expression tied to hope and unexpected fortune arriving 'from above'.",
+    "example": "The grant money was a blessing in the sky for the struggling nonprofit.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Less common variant; \"windfall\" is preferred in formal writing."
+  },
+  {
+    "idiom": "Born with a silver spoon in your mouth",
+    "meaning": "To be born into a wealthy family.",
+    "origin": "Refers to the historical custom of giving silver spoons as gifts to wealthy infants.",
+    "example": "He was born with a silver spoon in his mouth and never had to work.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"born into wealth\" or \"born into privilege\" in formal contexts."
+  },
+  {
+    "idiom": "Bull in a china shop",
+    "meaning": "Someone who is clumsy or careless in a delicate situation.",
+    "origin": "Imagery of a bull causing chaos and destruction among fragile porcelain items.",
+    "example": "He handled the negotiation like a bull in a china shop.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"tactless\" or \"careless\" in professional settings."
+  },
+  {
+    "idiom": "Burst your bubble",
+    "meaning": "To destroy someone's illusion or hopeful outlook.",
+    "origin": "Compares an idealistic mindset to a fragile bubble that can easily pop.",
+    "example": "I hate to burst your bubble, but the concert is sold out.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"dispel someone's expectations\" formally."
+  },
+  {
+    "idiom": "By the skin of your teeth",
+    "meaning": "To narrowly succeed at something.",
+    "origin": "Believed to derive from the biblical Book of Job, describing a narrow escape.",
+    "example": "We caught the flight by the skin of our teeth.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"narrowly\" or \"just barely\" in formal writing."
+  },
+  {
+    "idiom": "Call it a day",
+    "meaning": "To stop working on something, usually for the rest of the day.",
+    "origin": "Dates back to early 20th-century American English, indicating the end of a work period.",
+    "example": "We've made great progress, let's call it a day.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"conclude for the day\" in formal reports."
+  },
+  {
+    "idiom": "Caught red-handed",
+    "meaning": "To be caught in the act of doing something wrong.",
+    "origin": "Originates from Scottish law, referring to having blood on one's hands after committing a crime.",
+    "example": "The thief was caught red-handed by security cameras.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"caught in the act\" in formal legal or business writing."
+  },
+  {
+    "idiom": "Costs a fortune",
+    "meaning": "To be very expensive.",
+    "origin": "A straightforward metaphor comparing price to an entire fortune.",
+    "example": "That vacation cost a fortune, but it was worth it.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"very costly\" or \"expensive\" in formal documents."
+  },
+  {
+    "idiom": "Cross that bridge when you come to it",
+    "meaning": "To deal with a problem only when it actually happens, not before.",
+    "origin": "Metaphor referencing travelers who don't need to plan for a bridge crossing until they reach it.",
+    "example": "I don't know if it'll rain on the trip, but we'll cross that bridge when we come to it.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"address the issue when it arises\" formally."
+  },
+  {
+    "idiom": "Cry over spilled milk",
+    "meaning": "To be upset about something that has already happened and cannot be changed.",
+    "origin": "First recorded in the 17th century, comparing minor irreversible mishaps to spilled milk.",
+    "example": "The deal fell through, but there's no use crying over spilled milk.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"dwelling on past mistakes\" in formal writing."
+  },
+  {
+    "idiom": "Curiosity killed the cat",
+    "meaning": "Being inquisitive can lead you into danger or trouble.",
+    "origin": "Originally 'care killed the cat' in the 16th century, later evolving to 'curiosity'.",
+    "example": "Don't ask too many questions—curiosity killed the cat.",
+    "source": "English Proverb",
+    "tip": "Pro-tip: Commonly used as a light warning in casual speech."
+  },
+  {
+    "idiom": "Cut to the chase",
+    "meaning": "To get to the point without wasting time.",
+    "origin": "Comes from early filmmaking, where directors would cut to the exciting chase scene.",
+    "example": "Let's cut to the chase—are you accepting the offer or not?",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"get to the main point\" in formal business writing."
+  },
+  {
+    "idiom": "Devil's advocate",
+    "meaning": "To argue against a position, not because you disagree, but to test the argument.",
+    "origin": "From the Catholic Church's practice of appointing someone to argue against a candidate's canonization.",
+    "example": "I'll play devil's advocate: what if the plan fails?",
+    "source": "English Idiom",
+    "tip": "Pro-tip: This phrase is widely used in formal debates and meetings."
+  },
+  {
+    "idiom": "Don't count your chickens before they hatch",
+    "meaning": "Don't assume success before it actually happens.",
+    "origin": "Comes from Aesop's fables, warning against premature celebration.",
+    "example": "You haven't gotten the job offer yet, so don't count your chickens before they hatch.",
+    "source": "English Proverb",
+    "tip": "Pro-tip: Use \"avoid premature assumptions of success\" formally."
+  },
+  {
+    "idiom": "Don't cry over spilled milk",
+    "meaning": "There's no point being upset over something that can't be undone.",
+    "origin": "A variant phrasing of the earlier proverb about spilled milk.",
+    "example": "The project failed, but don't cry over spilled milk—let's plan the next one.",
+    "source": "English Proverb",
+    "tip": "Pro-tip: Interchangeable with 'cry over spilled milk'."
+  },
+  {
+    "idiom": "Don't judge a book by its cover",
+    "meaning": "Don't form an opinion about someone or something based only on appearance.",
+    "origin": "First recorded in the mid-20th century, referencing how a book's cover doesn't reflect its content.",
+    "example": "He seemed unfriendly at first, but don't judge a book by its cover.",
+    "source": "English Proverb",
+    "tip": "Pro-tip: Use \"avoid basing judgments on appearance\" formally."
+  },
+  {
+    "idiom": "Down to the wire",
+    "meaning": "Something that is decided or completed at the very last moment.",
+    "origin": "Derived from horse racing, where the wire marked the finish line.",
+    "example": "The negotiations went down to the wire before a deal was reached.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"until the last possible moment\" formally."
+  },
+  {
+    "idiom": "Draw a blank",
+    "meaning": "To be unable to remember or think of something.",
+    "origin": "Refers to lottery tickets that are blank (non-winning), symbolizing a lack of result.",
+    "example": "I tried to remember his name, but I drew a blank.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"unable to recall\" in formal writing."
+  },
+  {
+    "idiom": "Drop in the bucket",
+    "meaning": "A very small amount compared to what is needed.",
+    "origin": "A biblical reference from the Book of Isaiah, describing insignificance in scale.",
+    "example": "The donation was generous, but it's just a drop in the bucket for the total cost.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"a minor fraction of the total\" formally."
+  },
+  {
+    "idiom": "Elephant in the room",
+    "meaning": "An obvious problem or issue that people avoid discussing.",
+    "origin": "Popularized in the 20th century, referencing something too large to ignore yet unspoken.",
+    "example": "We need to address the elephant in the room: the budget shortfall.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Widely used in professional meetings to raise sensitive topics."
+  },
+  {
+    "idiom": "Every cloud has a silver lining",
+    "meaning": "Even difficult situations have some positive aspect.",
+    "origin": "Traced to a 1634 poem by John Milton describing hope amid darkness.",
+    "example": "Losing that client was tough, but every cloud has a silver lining—we found a better one.",
+    "source": "English Proverb",
+    "tip": "Pro-tip: Use \"there is a positive aspect to every setback\" formally."
+  },
+  {
+    "idiom": "Fit as a fiddle",
+    "meaning": "To be in very good physical health.",
+    "origin": "Dates to the 17th century when 'fit' meant well-suited, comparing health to a finely tuned instrument.",
+    "example": "After the surgery, she's fit as a fiddle again.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"in excellent health\" in formal medical or professional writing."
+  },
+  {
+    "idiom": "Get a taste of your own medicine",
+    "meaning": "To be treated the way you have treated others, usually negatively.",
+    "origin": "A metaphor comparing bad treatment to being forced to take one's own bitter medicine.",
+    "example": "After all his pranks, he finally got a taste of his own medicine.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"experience the consequences of one's own actions\" formally."
+  },
+  {
+    "idiom": "Get out of hand",
+    "meaning": "To become uncontrollable.",
+    "origin": "Refers to a horse or animal that is no longer controllable by its handler.",
+    "example": "The party got out of hand after midnight.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"become uncontrollable\" in formal writing."
+  },
+  {
+    "idiom": "Get your act together",
+    "meaning": "To organize yourself and improve your behavior or work.",
+    "origin": "Believed to originate from theater, where performers needed to prepare their act before a show.",
+    "example": "You need to get your act together before the deadline.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"organize oneself effectively\" formally."
+  },
+  {
+    "idiom": "Give someone the benefit of the doubt",
+    "meaning": "To trust what someone says even without full proof.",
+    "origin": "Comes from legal terminology where a defendant is presumed innocent absent clear evidence.",
+    "example": "I'll give him the benefit of the doubt this time.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: This phrase is standard in both formal and informal English."
+  },
+  {
+    "idiom": "Go the extra mile",
+    "meaning": "To make an extra effort to accomplish something.",
+    "origin": "Believed to originate from a biblical teaching about voluntarily doing more than required.",
+    "example": "She always goes the extra mile to help her clients.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Widely used in professional and formal contexts."
+  },
+  {
+    "idiom": "Hang in there",
+    "meaning": "To persevere through a difficult situation.",
+    "origin": "Popularized in the 1970s, often associated with a famous motivational poster of a cat.",
+    "example": "I know it's tough right now, but hang in there.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"persevere\" or \"stay resilient\" in formal writing."
+  },
+  {
+    "idiom": "Hit the books",
+    "meaning": "To study hard.",
+    "origin": "American slang from the early 20th century, comparing intense study to physically striking books.",
+    "example": "I need to hit the books before my final exam.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"study diligently\" in formal academic writing."
+  },
+  {
+    "idiom": "Hit the sack",
+    "meaning": "To go to bed.",
+    "origin": "Refers to old mattresses that were literally sacks filled with straw.",
+    "example": "I'm exhausted; I'm going to hit the sack early tonight.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"go to bed\" or \"retire for the night\" formally."
+  },
+  {
+    "idiom": "In the heat of the moment",
+    "meaning": "Acting without thinking due to strong emotion at the time.",
+    "origin": "Refers to the intensity ('heat') of emotional or high-pressure situations.",
+    "example": "I said something rude in the heat of the moment.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"in a moment of strong emotion\" formally."
+  },
+  {
+    "idiom": "It takes two to tango",
+    "meaning": "Both parties involved in a situation share responsibility.",
+    "origin": "Popularized by a 1952 song, referencing the coordination needed for the tango dance.",
+    "example": "Don't blame just him for the argument—it takes two to tango.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"both parties share responsibility\" in formal contexts."
+  },
+  {
+    "idiom": "Jump on the bandwagon",
+    "meaning": "To join a popular trend or activity.",
+    "origin": "Refers to political campaigns in the 19th century where candidates rode bandwagons to attract crowds.",
+    "example": "Everyone is jumping on the bandwagon for the new diet trend.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"follow a popular trend\" formally."
+  },
+  {
+    "idiom": "Keep your chin up",
+    "meaning": "To remain positive despite difficulty.",
+    "origin": "Physical posture of holding one's head high symbolizes confidence and resilience.",
+    "example": "Keep your chin up—things will get better soon.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"remain optimistic\" formally."
+  },
+  {
+    "idiom": "Keep your fingers crossed",
+    "meaning": "To hope for a good outcome.",
+    "origin": "An old superstition believed to ward off bad luck by crossing fingers.",
+    "example": "I'm keeping my fingers crossed for good news tomorrow.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"hoping for a favorable outcome\" formally."
+  },
+  {
+    "idiom": "Last straw",
+    "meaning": "The final problem in a series that causes a complete breakdown.",
+    "origin": "Derived from the proverb 'the straw that broke the camel's back'.",
+    "example": "His constant lateness was the last straw for the team.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"the final unacceptable incident\" formally."
+  },
+  {
+    "idiom": "Let bygones be bygones",
+    "meaning": "To forget past conflicts and move forward.",
+    "origin": "Dates to the 16th century, encouraging reconciliation after disputes.",
+    "example": "It's time we let bygones be bygones and work together.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"move past previous disagreements\" formally."
+  },
+  {
+    "idiom": "Long shot",
+    "meaning": "Something unlikely to succeed but still worth attempting.",
+    "origin": "Comes from shooting sports, where hitting a distant target was difficult.",
+    "example": "Applying for that job is a long shot, but I'll try.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"unlikely but possible\" formally."
+  },
+  {
+    "idiom": "Make ends meet",
+    "meaning": "To have enough money to cover basic expenses.",
+    "origin": "17th-century phrase referring to balancing a household budget from end to end.",
+    "example": "It's hard to make ends meet with rising costs.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"cover basic living expenses\" formally."
+  },
+  {
+    "idiom": "Miss the boat",
+    "meaning": "To miss an opportunity.",
+    "origin": "Literal reference to arriving too late to catch a departing boat.",
+    "example": "If you don't apply now, you'll miss the boat on this opportunity.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"miss an opportunity\" formally."
+  },
+  {
+    "idiom": "On the same page",
+    "meaning": "To be in agreement or understanding with someone.",
+    "origin": "Refers to readers literally being on the same page of a book, symbolizing shared understanding.",
+    "example": "Let's make sure we're on the same page before the presentation.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Widely used in professional meetings to confirm alignment."
+  },
+  {
+    "idiom": "On thin ice",
+    "meaning": "In a risky or precarious situation.",
+    "origin": "Refers to the literal danger of walking on ice that might crack.",
+    "example": "He's on thin ice with his boss after missing another deadline.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"in a precarious position\" formally."
+  },
+  {
+    "idiom": "Out of the blue",
+    "meaning": "Something happening unexpectedly.",
+    "origin": "Refers to something appearing suddenly from a clear, empty sky.",
+    "example": "She called me out of the blue after years of silence.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"unexpectedly\" formally."
+  },
+  {
+    "idiom": "Piece of the pie",
+    "meaning": "A share of something, usually profits or resources.",
+    "origin": "Metaphor comparing profits or resources to slices of a shared pie.",
+    "example": "Everyone wants a piece of the pie in this profitable industry.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"a share of the profits\" formally."
+  },
+  {
+    "idiom": "Pull yourself together",
+    "meaning": "To regain control of your emotions.",
+    "origin": "Metaphor for reassembling scattered composure, dating to the early 20th century.",
+    "example": "Take a deep breath and pull yourself together before the interview.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"regain composure\" formally."
+  },
+  {
+    "idiom": "Put all your eggs in one basket",
+    "meaning": "To risk everything on a single plan or venture.",
+    "origin": "Refers to the literal risk of carrying all eggs in one basket, which could break and lose everything.",
+    "example": "Don't put all your eggs in one basket—diversify your investments.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"concentrate all resources in a single venture\" formally."
+  },
+  {
+    "idiom": "Rain on someone's parade",
+    "meaning": "To spoil someone's plans or happiness.",
+    "origin": "Popularized by a 1964 song, referencing literal rain ruining an outdoor celebration.",
+    "example": "I hate to rain on your parade, but the venue is booked.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"dampen someone's enthusiasm\" formally."
+  },
+  {
+    "idiom": "Read between the lines",
+    "meaning": "To understand a hidden or implied meaning.",
+    "origin": "Refers to old cryptography methods where secret messages were written between visible lines of text.",
+    "example": "Reading between the lines, I could tell he wasn't happy with the decision.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"infer the underlying meaning\" formally."
+  },
+  {
+    "idiom": "Rule of thumb",
+    "meaning": "A general principle based on experience rather than exact measurement.",
+    "origin": "Possibly derived from craftsmen using their thumb as a rough unit of measurement.",
+    "example": "As a rule of thumb, save at least 20% of your income.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"general guideline\" formally."
+  },
+  {
+    "idiom": "See eye to eye",
+    "meaning": "To agree with someone.",
+    "origin": "Biblical origin, referencing shared perspective and understanding.",
+    "example": "We don't always see eye to eye, but we respect each other's views.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"agree with\" formally."
+  },
+  {
+    "idiom": "Sit on the fence",
+    "meaning": "To avoid making a decision or taking a side.",
+    "origin": "Metaphor of literally sitting on a fence between two properties, unwilling to choose either side.",
+    "example": "He's still sitting on the fence about whether to accept the job offer.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"remain undecided\" formally."
+  },
+  {
+    "idiom": "Speak of the devil",
+    "meaning": "Said when a person who was just mentioned appears unexpectedly.",
+    "origin": "Originally a superstitious warning against summoning evil by naming it; now used lightheartedly.",
+    "example": "Speak of the devil, here comes Jake now!",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Informal; avoid in formal business writing."
+  },
+  {
+    "idiom": "Steal someone's thunder",
+    "meaning": "To take credit for someone else's idea or achievement.",
+    "origin": "Coined by 18th-century playwright John Dennis after his thunder sound effect was used by a rival play.",
+    "example": "She stole my thunder by announcing the news before I could.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"take credit for another's achievement\" formally."
+  },
+  {
+    "idiom": "Straight from the horse's mouth",
+    "meaning": "Information from the original or most reliable source.",
+    "origin": "Refers to horse racing, where insider tips from stable workers were considered highly reliable.",
+    "example": "I heard it straight from the horse's mouth—the merger is happening.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"directly from the primary source\" formally."
+  },
+  {
+    "idiom": "Take it with a grain of salt",
+    "meaning": "To not fully believe something; view it with skepticism.",
+    "origin": "Derived from an ancient belief that salt could counteract poison, symbolizing caution.",
+    "example": "Take his promises with a grain of salt.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"view with skepticism\" formally."
+  },
+  {
+    "idiom": "Talk of the town",
+    "meaning": "Something or someone that everyone is discussing.",
+    "origin": "Refers to widespread gossip or news circulating within a community.",
+    "example": "The new restaurant is the talk of the town.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"a widely discussed topic\" formally."
+  },
+  {
+    "idiom": "The last resort",
+    "meaning": "The final option after all others have failed.",
+    "origin": "From French 'dernier ressort', referring to a final court of appeal.",
+    "example": "Surgery is the last resort if medication doesn't work.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"final available option\" formally."
+  },
+  {
+    "idiom": "The whole nine yards",
+    "meaning": "Everything; all that is available or possible.",
+    "origin": "Origin debated; possibly from WWII fighter pilots referring to a full ammunition belt.",
+    "example": "For the wedding, they went the whole nine yards with decorations.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"the entire extent\" formally."
+  },
+  {
+    "idiom": "Through thick and thin",
+    "meaning": "In good times and bad; under all circumstances.",
+    "origin": "Dates to the 14th century, referring to traveling through dense (thick) and sparse (thin) woods.",
+    "example": "They've supported each other through thick and thin.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"under all circumstances\" formally."
+  },
+  {
+    "idiom": "Throw in the towel",
+    "meaning": "To give up on something.",
+    "origin": "Comes from boxing, where a trainer throws a towel into the ring to concede defeat.",
+    "example": "After three failed attempts, he threw in the towel.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"concede defeat\" or \"give up\" formally."
+  },
+  {
+    "idiom": "Tie the knot",
+    "meaning": "To get married.",
+    "origin": "Refers to historical wedding traditions of literally tying ribbons or cords as a symbol of union.",
+    "example": "They're tying the knot next summer.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"get married\" in formal contexts."
+  },
+  {
+    "idiom": "Time flies",
+    "meaning": "Time passes very quickly.",
+    "origin": "From the Latin phrase 'tempus fugit', used since ancient Rome.",
+    "example": "Time flies when you're having fun.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"time passes quickly\" formally."
+  },
+  {
+    "idiom": "Too many cooks spoil the broth",
+    "meaning": "Too many people trying to do the same task can cause problems.",
+    "origin": "A proverb dating back centuries, warning against overcrowded decision-making.",
+    "example": "The project failed because too many cooks spoil the broth.",
+    "source": "English Proverb",
+    "tip": "Pro-tip: Use \"excessive involvement hinders efficiency\" formally."
+  },
+  {
+    "idiom": "Turn a blind eye",
+    "meaning": "To deliberately ignore something.",
+    "origin": "Attributed to Admiral Nelson, who reportedly held a telescope to his blind eye to ignore a signal.",
+    "example": "The manager turned a blind eye to the minor rule violations.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"deliberately overlook\" formally."
+  },
+  {
+    "idiom": "Turn over a new leaf",
+    "meaning": "To start behaving in a better way than before.",
+    "origin": "Refers to turning a page ('leaf') in a book to begin a fresh chapter.",
+    "example": "After the accident, he decided to turn over a new leaf.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"make a fresh start\" formally."
+  },
+  {
+    "idiom": "Under the radar",
+    "meaning": "Without being noticed.",
+    "origin": "Military term referring to flying low enough to avoid radar detection.",
+    "example": "The startup grew quietly under the radar before its big launch.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"without drawing attention\" formally."
+  },
+  {
+    "idiom": "Up in the air",
+    "meaning": "Undecided or uncertain.",
+    "origin": "Metaphor for something unsettled, like an object suspended without landing.",
+    "example": "Our vacation plans are still up in the air.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"undetermined\" or \"uncertain\" formally."
+  },
+  {
+    "idiom": "Wear your heart on your sleeve",
+    "meaning": "To openly show your emotions.",
+    "origin": "Believed to originate from medieval jousting, where knights wore a lady's token on their sleeve.",
+    "example": "She wears her heart on her sleeve, so you always know how she feels.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"openly express emotions\" formally."
+  },
+  {
+    "idiom": "When it rains, it pours",
+    "meaning": "Difficult situations often happen all at once.",
+    "origin": "Popularized as a Morton Salt slogan in the early 20th century.",
+    "example": "First I lost my job, then my car broke down—when it rains, it pours.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"problems tend to compound\" formally."
+  },
+  {
+    "idiom": "Wolf in sheep's clothing",
+    "meaning": "Someone who appears harmless but is actually dangerous or deceitful.",
+    "origin": "A biblical allusion warning against false prophets disguised as gentle figures.",
+    "example": "He seemed friendly, but he was a wolf in sheep's clothing.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"deceptively dangerous\" formally."
+  },
+  {
+    "idiom": "You can't judge a book by its cover",
+    "meaning": "Appearances can be deceiving; don't form opinions based on looks alone.",
+    "origin": "A variant of the classic proverb about avoiding superficial judgments.",
+    "example": "The old car looked rough, but you can't judge a book by its cover—it ran perfectly.",
+    "source": "English Proverb",
+    "tip": "Pro-tip: Use \"avoid judging based solely on appearance\" formally."
+  },
+  {
+    "idiom": "You can't have your cake and eat it too",
+    "meaning": "You can't enjoy two incompatible benefits at the same time.",
+    "origin": "First recorded in the 16th century, illustrating the impossibility of keeping and consuming cake simultaneously.",
+    "example": "You want a high salary and a relaxed schedule, but you can't have your cake and eat it too.",
+    "source": "English Proverb",
+    "tip": "Pro-tip: Use \"cannot have two contradictory benefits\" formally."
+  },
+  {
+    "idiom": "A dime a dozen",
+    "meaning": "Something very common and of little value.",
+    "origin": "American phrase from the 19th century, when goods sold cheaply at a dime per dozen.",
+    "example": "Those souvenirs are a dime a dozen at every tourist shop.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"common\" or \"plentiful\" formally."
+  },
+  {
+    "idiom": "Above board",
+    "meaning": "Legitimate and open; without any attempt at trickery.",
+    "origin": "Originates from card games, where keeping hands above the table (board) prevented cheating.",
+    "example": "The entire transaction was above board and fully documented.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"transparent and legitimate\" formally."
+  },
+  {
+    "idiom": "All ears",
+    "meaning": "Fully listening and attentive.",
+    "origin": "Metaphor exaggerating attentiveness, as if the whole body were made of ears.",
+    "example": "Go ahead, I'm all ears.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"fully attentive\" formally."
+  },
+  {
+    "idiom": "At the drop of a hat",
+    "meaning": "Immediately, without any hesitation.",
+    "origin": "Refers to the historical practice of starting a race or fight by dropping a hat as a signal.",
+    "example": "She'll help you at the drop of a hat.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"immediately\" or \"without hesitation\" formally."
+  },
+  {
+    "idiom": "Back to square one",
+    "meaning": "To return to the starting point after an unsuccessful attempt.",
+    "origin": "Believed to come from early board games or radio football commentary dividing the pitch into numbered squares.",
+    "example": "The funding fell through, so we're back to square one.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"return to the starting point\" formally."
+  },
+  {
+    "idiom": "Bend over backwards",
+    "meaning": "To make a great effort to help someone or achieve something.",
+    "origin": "Metaphor for an extreme physical contortion, symbolizing extraordinary effort.",
+    "example": "He bent over backwards to make sure the event was a success.",
+    "source": "English Idiom",
+    "tip": "Pro-tip: Use \"make an exceptional effort\" formally."
   }
 ]
